@@ -1,0 +1,19 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Thu Mar 12 18:01:22 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project
+Component :  COREI2C_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vhdl/core/corei2creal.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREI2C_C0/COREI2C_C0.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vhdl/core/corei2c.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vhdl/test/user/corei2c_tb_pkg.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vhdl/test/user/i2c_spk.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREI2C_C0/COREI2C_C0_0/coreparameters.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vhdl/test/user/tb_user_corei2c.vhd
+

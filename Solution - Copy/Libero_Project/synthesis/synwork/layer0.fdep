@@ -1,0 +1,195 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.top|-layerid|0|-orig_srs|C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\synthesis\\synwork\\top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|COREI2C_LIB|-lib|COREI2C_LIB|-lib|work|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|work|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\bin64\\c_vhdl.exe":1562075633
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\location.map":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1562075650
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1582851268
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1582851268
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1582851268
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\Actel\\DirectCore\\COREI2C\\7.2.101\\rtl\\vhdl\\core\\corei2creal.vhd":1584044661
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREGPIO_0\\COREGPIO_0_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1585074506
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\misc.vhd":1562075650
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREGPIO_0\\COREGPIO_0_0\\rtl\\vhdl\\core\\components.vhd":1585074506
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\Clock_gen.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\fifo_256x8_54sxa.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\Rx_async.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\Tx_async.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core\\core\\coreuart_pkg.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\components.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\hdl\\uart_fifo.vhd":1585077724
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1582851268
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\APB3\\APB3.vhd":1584997964
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\generic\\acg5.vhd":1562075649
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREI2C_C0\\COREI2C_C0_0\\rtl\\vhdl\\core\\corei2c.vhd":1584057682
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREI2C_C0\\COREI2C_C0.vhd":1584057682
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREGPIO_0\\COREGPIO_0_0\\rtl\\vhdl\\core\\coregpio.vhd":1585074506
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\COREGPIO_0\\COREGPIO_0.vhd":1585074506
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\GPIO_TOP\\GPIO_TOP.vhd":1585076993
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\CoreUART.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1_0\\rtl\\vhdl\\core_obfuscated\\CoreUARTapb.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\UART_apb_1\\UART_apb_1.vhd":1584384570
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\LVDS_UART\\LVDS_UART.vhd":1585077006
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\LVDS_UART_TOP\\LVDS_UART_TOP.vhd":1585077012
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution - Copy\\Libero_Project\\component\\work\\top\\top.vhd":1585076919
+0 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+1 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+2 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+3 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+4 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\APB3\APB3.vhd" vhdl
+5 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd" vhdl
+6 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vhdl\core\corei2c.vhd" vhdl
+7 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0.vhd" vhdl
+8 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+9 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd" vhdl
+10 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\components.vhd" vhdl
+11 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0.vhd" vhdl
+12 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\GPIO_TOP\GPIO_TOP.vhd" vhdl
+13 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd" vhdl
+14 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\fifo_256x8_54sxa.vhd" vhdl
+15 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd" vhdl
+16 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd" vhdl
+17 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core\core\coreuart_pkg.vhd" vhdl
+18 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd" vhdl
+19 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd" vhdl
+20 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+21 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1.vhd" vhdl
+22 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd" vhdl
+23 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\LVDS_UART\LVDS_UART.vhd" vhdl
+24 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\LVDS_UART_TOP\LVDS_UART_TOP.vhd" vhdl
+25 "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\top\top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+3 -1
+4 2 3 
+5 -1
+6 5 
+7 6 
+8 -1
+9 8 
+10 -1
+11 9 10 
+12 11 
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 13 16 15 14 17 
+19 18 17 
+20 -1
+21 19 20 
+22 -1
+23 21 22 
+24 23 
+25 4 7 12 24 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 4 
+3 4 
+4 25 
+5 6 
+6 7 
+7 25 
+8 9 
+9 11 
+10 11 
+11 12 
+12 25 
+13 18 
+14 18 
+15 18 
+16 18 
+17 19 18 
+18 19 
+19 21 
+20 21 
+21 23 
+22 23 
+23 24 
+24 25 
+25 -1
+
+# Design Unit to File Association
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 0
+module coreapb3_lib coreapb3_muxptob3 0
+arch coreapb3_lib coreapb3_iaddr_reg rtl 1
+module coreapb3_lib coreapb3_iaddr_reg 1
+arch coreapb3_lib coreapb3 coreapb3_arch 2
+module coreapb3_lib coreapb3 2
+arch work apb3 rtl 4
+module work apb3 4
+arch corei2c_lib corei2c_corei2creal rtl 5
+module corei2c_lib corei2c_corei2creal 5
+arch corei2c_lib corei2c_c0_corei2c_c0_0_corei2c rtl 6
+module corei2c_lib corei2c_c0_corei2c_c0_0_corei2c 6
+arch work corei2c_c0 rtl 7
+module work corei2c_c0 7
+arch coregpio_lib coregpio_0_coregpio_0_0_coregpio rtl 9
+module coregpio_lib coregpio_0_coregpio_0_0_coregpio 9
+arch work coregpio_0 rtl 11
+module work coregpio_0 11
+arch work gpio_top rtl 12
+module work gpio_top 12
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_clock_gen cuarti 13
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_clock_gen 13
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_ram16x8 cuartlol 14
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_ram16x8 14
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_fifo_ctrl_256 cuartlol 14
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_fifo_ctrl_256 14
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_fifo_256x8 cuartlol 14
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_fifo_256x8 14
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_rx_async cuartlol 15
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_rx_async 15
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_tx_async cuartlol 16
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_tx_async 16
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_coreuart cuartlol 18
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_coreuart 18
+arch coreuartapb_lib uart_apb_1_uart_apb_1_0_coreuartapb cuartlol 19
+module coreuartapb_lib uart_apb_1_uart_apb_1_0_coreuartapb 19
+arch work uart_apb_1 rtl 21
+module work uart_apb_1 21
+arch work uart_fifo uart_fifo 22
+module work uart_fifo 22
+arch work lvds_uart rtl 23
+module work lvds_uart 23
+arch work lvds_uart_top rtl 24
+module work lvds_uart_top 24
+arch work top rtl 25
+module work top 25
+
+# Unbound Instances to File Association
+inst work gpio_top pf_io_gpio 12
+inst work lvds_uart pf_out_c2 23
+inst work lvds_uart pf_in_c1 23
+inst work top uart_apb 25
+inst work top spi_controller 25
+inst work top reset_syn_1 25
+inst work top reset_syn_0 25
+inst work top pf_io_i2c_sda_0 25
+inst work top pf_io_c0 25
+inst work top miv_axi 25
+inst work top lsram 25
+inst work top init_monitor 25
+inst work top ddr3_0 25
+inst work top corejtagdebug_0 25
+inst work top coreahbtoapb3_0 25
+inst work top coreahblite_0 25
+inst work top coraxitoahbl_0 25
+inst work top ccc_0 25
+inst work top axi4_interconnect 25
+
+
+# Configuration files used

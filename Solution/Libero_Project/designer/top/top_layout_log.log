@@ -1,0 +1,3 @@
+INFO: Reading User SDC file C:\Users\Public\Documents\Libero\Solution\Libero_Project\constraint\top_derived_constraints.sdc.
+INFO: Reading User SDC file C:\Users\Public\Documents\Libero\Solution\Libero_Project\constraint\timing_user_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.

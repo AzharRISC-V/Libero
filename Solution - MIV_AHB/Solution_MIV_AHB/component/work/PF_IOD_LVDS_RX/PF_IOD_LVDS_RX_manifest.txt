@@ -1,0 +1,16 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Mon Mar 23 12:14:48 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project
+Component :  PF_IOD_LVDS_RX
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_CLK_DIV_FIFO/PF_IOD_LVDS_RX_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_CLK_DIV_RXCLK/PF_IOD_LVDS_RX_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_IOD_LVDS_RX.v
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_IOD_RX/PF_IOD_LVDS_RX_PF_IOD_RX_PF_IOD.v
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_LANECTRL_0/PF_IOD_LVDS_RX_PF_LANECTRL_0_PF_LANECTRL.v
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/PF_IOD_LVDS_RX/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v
+

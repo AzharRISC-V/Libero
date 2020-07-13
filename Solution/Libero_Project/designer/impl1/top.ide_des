@@ -1,0 +1,12 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "/home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/designer/impl1/top.adb"
+LIST SOURCE_FILES
+VALUE "/home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/constraint/top_derived_constraints.sdc;sdc"
+VALUE "/home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/constraint/timing_user_constraints.sdc;sdc"
+VALUE "/home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/constraint/io/io_constraints.pdc;pdc"
+VALUE "/home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/constraint/fp/fp_constraints.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

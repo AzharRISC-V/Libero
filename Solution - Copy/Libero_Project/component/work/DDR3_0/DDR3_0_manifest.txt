@@ -1,0 +1,16 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Wed Sep 11 14:33:15 2019
+Project   :  /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project
+Component :  DDR3_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/SgCore/PF_DDR_CFG_INIT/1.0.100/cfg_init.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/DDR3_0/CCC_0/DDR3_0_CCC_0_PF_CCC.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/DDR3_0/DDR3_0.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/DDR3_0/DDRCTRL_0/CoreDDRMemCtrlr_0.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/DDR3_0/DDRCTRL_0/sdram_lb_defines_0.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/DDR3_0/DLL_0/DDR3_0_DLL_0_PF_CCC.v
+

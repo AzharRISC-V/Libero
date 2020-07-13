@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top</header>
+  <drc>
+    <status>C:\new_Microsemi\Libero_SoC_v12.3\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin AXI4_Interconnect_0:AXI4mmaster0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/AXI4_Interconnect_0:AXI4mmaster0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\new_Microsemi\Libero_SoC_v12.3\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin COREAHBLTOAXI_C0_0:AXIMasterIF</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/COREAHBLTOAXI_C0_0:AXIMasterIF</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\new_Microsemi\Libero_SoC_v12.3\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MIV_RV32IMAF_L1_AHB_C0_0:AHB_MST_MEM_HSEL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MIV_RV32IMAF_L1_AHB_C0_0:AHB_MST_MEM_HSEL</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\new_Microsemi\Libero_SoC_v12.3\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MIV_RV32IMAF_L1_AHB_C0_0:AHB_MST_MMIO_HSEL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MIV_RV32IMAF_L1_AHB_C0_0:AHB_MST_MMIO_HSEL</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\new_Microsemi\Libero_SoC_v12.3\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin MIV_RV32IMAF_L1_AHB_C0_0:IRQ[30:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MIV_RV32IMAF_L1_AHB_C0_0:IRQ</crossprobe>
+  </drc>
+</drcreport>

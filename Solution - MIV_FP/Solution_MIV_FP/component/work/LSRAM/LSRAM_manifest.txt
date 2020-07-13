@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.21)
+
+Date      :  Mon Sep 23 17:57:31 2019
+Project   :  E:\12.2_Designs\TU775_MiV_AXI\solution\Libero_Project
+Component :  LSRAM
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/12.2_Designs/TU775_MiV_AXI/solution/Libero_Project/component/work/LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    E:/12.2_Designs/TU775_MiV_AXI/solution/Libero_Project/component/work/LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    E:/12.2_Designs/TU775_MiV_AXI/solution/Libero_Project/component/work/LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    E:/12.2_Designs/TU775_MiV_AXI/solution/Libero_Project/component/work/LSRAM/LSRAM.v
+    E:/12.2_Designs/TU775_MiV_AXI/solution/Libero_Project/component/work/LSRAM/PF_TPSRAM_AHB_AXI_0/LSRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+

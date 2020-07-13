@@ -1,0 +1,673 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)</p>
+        <p>Date: Sat Mar 14 14:17:06 2020
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</td>
+                <td>(1165, 163)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_gbs_1</td>
+                <td>12221</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DDR3_0_0/CCC_0/clkint_4/U0</td>
+                <td>(1169, 162)</td>
+                <td>DDR3_0_0/CCC_0/clkint_4/U0_Y</td>
+                <td>9852</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</td>
+                <td>(1165, 162)</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0_Y</td>
+                <td>2933</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</td>
+                <td>(1164, 162)</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0_Y</td>
+                <td>1114</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0</td>
+                <td>(1153, 162)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_Y</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</td>
+                <td>(1157, 162)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y</td>
+                <td>311</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</td>
+                <td>(1155, 162)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0_Y</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</td>
+                <td>(1167, 162)</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0_Y</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <p>(none)</p>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset:Q</td>
+                <td>(1807, 229)</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_Z</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM:Y</td>
+                <td>(1820, 225)</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_i_0_rep</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK:Y</td>
+                <td>(500, 30)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/un1_DUT_TCK</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK</td>
+                <td>(504, 2)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_0</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/DFN1_CMD:Q</td>
+                <td>(2113, 376)</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/DFN1_CMD_Q</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</td>
+                <td>(2460, 5)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DDR3_0_0/CCC_0/pll_inst_0:OUT1</td>
+                <td>(2460, 377)</td>
+                <td>DDR3_0_0/CCC_0/clkint_4/U0</td>
+                <td>DDR3_0_0/CCC_0/pll_inst_0_clkint_4</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</td>
+                <td>(2460, 5)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC Input Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> CCC Location </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>REF_CLK_0</td>
+                <td>E25</td>
+                <td>HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0</td>
+                <td>REF_CLK_0_ibuf/U_IOPAD:Y</td>
+                <td>(2256, 1)</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0:REF_CLK_0</td>
+                <td>(2460, 5)</td>
+                <td>REF_CLK_0_c</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</td>
+                <td>(2460, 5)</td>
+                <td>DDR3_0_0/CCC_0/pll_inst_0:REF_CLK_0</td>
+                <td>(2460, 377)</td>
+                <td>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Local Clock Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Clock Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> Local Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</td>
+                <td>(1165, 163)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_gbs_1</td>
+                <td>12221</td>
+                <td>1</td>
+                <td>(1744, 204)</td>
+                <td>2071</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1744, 231)</td>
+                <td>2617</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1744, 258)</td>
+                <td>2604</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1744, 285)</td>
+                <td>2545</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(1744, 312)</td>
+                <td>127</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(1750, 204)</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(1750, 231)</td>
+                <td>806</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(1750, 258)</td>
+                <td>1017</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>9</td>
+                <td>(1750, 285)</td>
+                <td>354</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>10</td>
+                <td>(1750, 366)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DDR3_0_0/CCC_0/clkint_4/U0</td>
+                <td>(1169, 162)</td>
+                <td>DDR3_0_0/CCC_0/clkint_4/U0_Y</td>
+                <td>9852</td>
+                <td>1</td>
+                <td>(1743, 286)</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1743, 313)</td>
+                <td>659</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1743, 340)</td>
+                <td>499</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1743, 367)</td>
+                <td>251</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(1749, 232)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(1749, 286)</td>
+                <td>1398</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(1749, 313)</td>
+                <td>2516</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(1749, 340)</td>
+                <td>2234</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>9</td>
+                <td>(1749, 367)</td>
+                <td>2226</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</td>
+                <td>(1165, 162)</td>
+                <td>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0_Y</td>
+                <td>2933</td>
+                <td>1</td>
+                <td>(1743, 231)</td>
+                <td>139</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1743, 258)</td>
+                <td>844</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1743, 285)</td>
+                <td>1093</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1743, 312)</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(1749, 231)</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(1749, 258)</td>
+                <td>578</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(1749, 285)</td>
+                <td>223</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</td>
+                <td>(1164, 162)</td>
+                <td>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0_Y</td>
+                <td>1114</td>
+                <td>1</td>
+                <td>(1740, 231)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1740, 258)</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1740, 285)</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1746, 231)</td>
+                <td>504</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(1746, 258)</td>
+                <td>381</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(1746, 285)</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0</td>
+                <td>(1153, 162)</td>
+                <td>CCC_0_0/CCC_0_0/clkint_0/U0_Y</td>
+                <td>1010</td>
+                <td>1</td>
+                <td>(585, 204)</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(585, 231)</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(585, 258)</td>
+                <td>482</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(585, 285)</td>
+                <td>267</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(585, 312)</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</td>
+                <td>(1157, 162)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y</td>
+                <td>311</td>
+                <td>1</td>
+                <td>(585, 205)</td>
+                <td>246</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(585, 232)</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</td>
+                <td>(1155, 162)</td>
+                <td>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0_Y</td>
+                <td>18</td>
+                <td/>
+                <td>(580, 41)</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</td>
+                <td>(1167, 162)</td>
+                <td>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0_Y</td>
+                <td>3</td>
+                <td/>
+                <td>(1750, 368)</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

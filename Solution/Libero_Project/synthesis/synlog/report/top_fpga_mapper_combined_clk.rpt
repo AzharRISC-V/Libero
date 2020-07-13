@@ -1,0 +1,38 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 18 clock pin(s) of sequential element(s)
+12 gated/generated clock tree(s) driving 23182 clock pin(s) of sequential element(s)
+0 instances converted, 23182 sequential instances remain driven by gated/generated clocks
+
+====================================================================================== Non-Gated/Non-Generated Clocks =======================================================================================
+Clock Tree ID     Driving Element                                                               Drive Element Type           Fanout     Sample Instance                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0013       COREJTAGDebug_0_0.COREJTAGDebug_0_0.genblk1\.genblk1\.genblk1\.UJTAG_inst     UJTAG                        17         COREJTAGDebug_0_0.COREJTAGDebug_0_0.genblk3\.genblk1\.UJ_JTAG.UTDODRV
+@K:CKID0014       REF_CLK_0                                                                     clock definition on port     1          CCC_0_0.CCC_0_0.pll_inst_0                                           
+=============================================================================================================================================================================================================
+============================================================================================================================= Gated/Generated Clocks =============================================================================================================================
+Clock Tree ID     Driving Element                                                               Drive Element Type     Fanout     Sample Instance                                            Explanation                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       DDR3_0_0.CCC_0.hs_io_clk_11                                                   HS_IO_CLK              55         DDR3_0_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL       No gated clock conversion method for cell cell:work.LANECTRL                         
+@K:CKID0002       DDR3_0_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL                          LANECTRL               26         DDR3_0_0.DDRPHY_BLK_0.IOD_WE_N.I_IOD_0                     No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0003       DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL                                  LANECTRL               10         DDR3_0_0.DDRPHY_BLK_0.LANE_0_IOD_READ_TRAINING.I_IOD_0     No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0004       DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL                                  LANECTRL               10         DDR3_0_0.DDRPHY_BLK_0.LANE_1_IOD_READ_TRAINING.I_IOD_0     No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0005       DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL                                  LANECTRL               9          DDR3_0_0.DDRPHY_BLK_0.LANE_0_IOD_DQS.I_IOD_0               No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0006       DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL                                  LANECTRL               9          DDR3_0_0.DDRPHY_BLK_0.LANE_1_IOD_DQS.I_IOD_0               No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0007       DDR3_0_0.CCC_0.hs_io_clk_15                                                   HS_IO_CLK              2          DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL               No gated clock conversion method for cell cell:work.LANECTRL                         
+@K:CKID0008       DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL                                  LANECTRL               1          DDR3_0_0.DDRPHY_BLK_0.LANE_0_IOD_DQS.I_IOD_0               No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0009       DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL                                  LANECTRL               1          DDR3_0_0.DDRPHY_BLK_0.LANE_1_IOD_DQS.I_IOD_0               No gated clock conversion method for cell cell:work.IOD                              
+@K:CKID0010       CCC_0_0.CCC_0_0.pll_inst_0                                                    PLL                    13100      G_2387                                                     Multiple clocks on generating sequential element from nets REF_CLK_0_c, GND          
+@K:CKID0011       DDR3_0_0.CCC_0.pll_inst_0                                                     PLL                    9648       DDR3_0_0.DDRCTRL_0.sdram_sys_top.dfi_rddata_w0_i[9]        Multiple clocks on generating sequential element from nets CCC_0_0_OUT0_FABCLK_0, GND
+@K:CKID0012       COREJTAGDebug_0_0.COREJTAGDebug_0_0.genblk3\.genblk1\.UJ_JTAG.un1_DUT_TCK     CFG4                   311        MiV_AXI_0.MiV_AXI_0.ChiselTop0.dtm.dmiReqReg_data[0]       Clock conversion disabled                                                            
+==================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

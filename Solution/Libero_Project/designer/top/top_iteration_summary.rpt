@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 1   DATE: 18:25:21 19-Sep-2019
+# INVOKED AS: //idm.microsemi.net/captures/pc/12_700_0_19_mica/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\dkawatha\Documents\Libero_Project\designer\top} -n 5 -starting_seed_index 6 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           6  82287664    N/A                        2.586  top_timing_violations_max_r1_s6_a.rpt          top_r1_s6_a
+           7  23702026    N/A                        2.550  top_timing_violations_max_r1_s7_a.rpt          top_r1_s7_a
+           8  51370950    N/A                        2.085  top_timing_violations_max_r1_s8_a.rpt          top_r1_s8_a
+           9  93189207    N/A                        2.496  top_timing_violations_max_r1_s9_a.rpt          top_r1_s9_a
+          10  17538078    N/A                        2.625  top_timing_violations_max_r1_s10_a.rpt         top_r1_s10_a
+  The best result top_r1_s10_a has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 2   DATE: 11:21:41 20-Sep-2019
+# INVOKED AS: //idm.microsemi.net/captures/pc/12_700_0_21_mica/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\Libero_Project\designer\top} -n 5 -starting_seed_index 11 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          11  77122585    N/A                        2.762  top_timing_violations_max_r2_s11.rpt           top_r2_s11
+          12  27521058    N/A                        2.557  top_timing_violations_max_r2_s12.rpt           top_r2_s12
+          13  77808595    N/A               Layout aborted  top_timing_violations_max_r2_s13.rpt           top_r2_s13
+  The best result top_r2_s11 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 3   DATE: 12:27:51 20-Sep-2019
+# INVOKED AS: //idm.microsemi.net/captures/pc/12_700_0_21_mica/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\Libero_Project\designer\top} -n 5 -starting_seed_index 14 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          14  85318856    N/A                        2.600  top_timing_violations_max_r3_s14.rpt           top_r3_s14
+          15  74257101    N/A                        2.434  top_timing_violations_max_r3_s15.rpt           top_r3_s15
+          16  32878858    N/A                        2.602  top_timing_violations_max_r3_s16.rpt           top_r3_s16
+          17  46508465    N/A                        1.986  top_timing_violations_max_r3_s17.rpt           top_r3_s17
+          18  94448754    N/A                        2.552  top_timing_violations_max_r3_s18.rpt           top_r3_s18
+  The best result top_r3_s16 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 4   DATE: 16:28:25 20-Sep-2019
+# INVOKED AS: //idm.microsemi.net/captures/pc/12_700_0_21_mica/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\TU775_MiV_AXI\Libero_Project\designer\top} -n 5 -starting_seed_index 19 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          19  15741291    N/A                        2.567  top_timing_violations_max_r4_s19.rpt           top_r4_s19
+          20  54522669    N/A                        2.611  top_timing_violations_max_r4_s20.rpt           top_r4_s20
+          21  48978728    N/A                        2.599  top_timing_violations_max_r4_s21.rpt           top_r4_s21
+          22  69702706    N/A                        2.640  top_timing_violations_max_r4_s22.rpt           top_r4_s22
+          23  97870047    N/A                        2.491  top_timing_violations_max_r4_s23.rpt           top_r4_s23
+  The best result top_r4_s22 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 5   DATE: 18:11:32 23-Sep-2019
+# INVOKED AS: //idm.microsemi.net/captures/pc/12_700_0_21_mica/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\TU775_MiV_AXI\solution\Libero_Project\designer\top} -n 5 -starting_seed_index 24 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          24  62801420    N/A                        2.561  top_timing_violations_max_r5_s24.rpt           top_r5_s24
+          25  53746736    N/A                        2.575  top_timing_violations_max_r5_s25.rpt           top_r5_s25
+          26  60669213    N/A                        2.671  top_timing_violations_max_r5_s26.rpt           top_r5_s26
+          27  48585287    N/A                        2.575  top_timing_violations_max_r5_s27.rpt           top_r5_s27
+          28  65109639    N/A                        2.669  top_timing_violations_max_r5_s28.rpt           top_r5_s28
+  The best result top_r5_s26 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 6   DATE: 10:24:38 21-Oct-2019
+# INVOKED AS: C:/Microsemi/Libero_SoC_v12.2/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\PF\TU0775_MiV\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 29 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          29   6200884    N/A                        2.651  top_timing_violations_max_r6_s29.rpt           top_r6_s29
+          30  95485523    N/A                        2.706  top_timing_violations_max_r6_s30.rpt           top_r6_s30
+          31  49281529    N/A                        2.462  top_timing_violations_max_r6_s31.rpt           top_r6_s31
+          32   7691409    N/A                        2.687  top_timing_violations_max_r6_s32.rpt           top_r6_s32
+          33  43672697    N/A                        2.517  top_timing_violations_max_r6_s33.rpt           top_r6_s33
+  The best result top_r6_s30 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 7   DATE: 16:09:12 25-Nov-2019
+# INVOKED AS: C:/Microsemi/Libero_SoC_v12.2/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\PF\TU0775_MiV\Qality\mpf_tu0775_df\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 34 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          34   2966551    N/A               Layout aborted  top_timing_violations_max_r7_s34.rpt           top_r7_s34
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 8   DATE: 16:10:35 25-Nov-2019
+# INVOKED AS: C:/Microsemi/Libero_SoC_v12.2/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {E:\12.2_Designs\PF\TU0775_MiV\Qality\mpf_tu0775_df\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 35 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          35  72212521    N/A                        2.702  top_timing_violations_max_r8_s35.rpt           top_r8_s35
+          36  66421044    N/A                        2.444  top_timing_violations_max_r8_s36.rpt           top_r8_s36
+          37  60426452    N/A                        2.636  top_timing_violations_max_r8_s37.rpt           top_r8_s37
+          38  61936054    N/A                        2.602  top_timing_violations_max_r8_s38.rpt           top_r8_s38
+          39   3381876    N/A                        2.733  top_timing_violations_max_r8_s39.rpt           top_r8_s39
+  The best result top_r8_s39 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 9   DATE: 19:41:53 28-Feb-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 40 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          40        39    N/A                        2.473  top_timing_violations_max_r9_s40.rpt           top_r9_s40
+          41        40    N/A                        2.488  top_timing_violations_max_r9_s41.rpt           top_r9_s41
+          42        41    N/A                        2.772  top_timing_violations_max_r9_s42.rpt           top_r9_s42
+          43        42    N/A                        2.586  top_timing_violations_max_r9_s43.rpt           top_r9_s43
+          44        43    N/A                        2.560  top_timing_violations_max_r9_s44.rpt           top_r9_s44
+  The best result top_r9_s42 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 10   DATE: 17:03:43 02-Mar-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 45 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          45        44    N/A                        2.396  top_timing_violations_max_r10_s45.rpt          top_r10_s45
+          46        45    N/A                        2.495  top_timing_violations_max_r10_s46.rpt          top_r10_s46
+          47        46    N/A                        2.531  top_timing_violations_max_r10_s47.rpt          top_r10_s47
+          48        47    N/A                        2.518  top_timing_violations_max_r10_s48.rpt          top_r10_s48
+          49        48    N/A                        2.632  top_timing_violations_max_r10_s49.rpt          top_r10_s49
+  The best result top_r10_s49 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 11   DATE: 15:58:11 06-Mar-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 50 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          50        49    N/A                        1.266  top_timing_violations_max_r11_s50.rpt          top_r11_s50
+          51        50    N/A                        1.352  top_timing_violations_max_r11_s51.rpt          top_r11_s51
+          52        51    N/A                        1.224  top_timing_violations_max_r11_s52.rpt          top_r11_s52
+          53        52    N/A                        1.064  top_timing_violations_max_r11_s53.rpt          top_r11_s53
+          54        53    N/A                        1.227  top_timing_violations_max_r11_s54.rpt          top_r11_s54
+  The best result top_r11_s51 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 12   DATE: 20:51:12 13-Mar-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 55 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          55        54    N/A                Layout failed  top_timing_violations_max_r12_s55.rpt          top_r12_s55
+          56        55    N/A                Layout failed  top_timing_violations_max_r12_s56.rpt          top_r12_s56
+          57        56    N/A                Layout failed  top_timing_violations_max_r12_s57.rpt          top_r12_s57
+          58        57    N/A                Layout failed  top_timing_violations_max_r12_s58.rpt          top_r12_s58
+          59        58    N/A                Layout failed  top_timing_violations_max_r12_s59.rpt          top_r12_s59
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 13   DATE: 14:09:38 14-Mar-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 60 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+          60        59    N/A                        2.069  top_timing_violations_max_r13_s60.rpt          top_r13_s60
+          61        60    N/A               Layout aborted  top_timing_violations_max_r13_s61.rpt          top_r13_s61
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 14   DATE: 14:22:26 14-Mar-2020
+# INVOKED AS: C:/new_Microsemi/Libero_SoC_v12.3/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\Users\Public\Documents\Libero\Solution\Libero_Project\designer\top} -n 5 -starting_seed_index 62 -compare_criteria violations -analysis max -slack_criteria worst
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================

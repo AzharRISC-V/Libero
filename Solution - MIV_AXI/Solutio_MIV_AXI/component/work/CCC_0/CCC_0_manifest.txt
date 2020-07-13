@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Wed Sep 11 14:32:12 2019
+Project   :  /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project
+Component :  CCC_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/CCC_0/CCC_0.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/CCC_0/CCC_0_0/CCC_0_CCC_0_0_PF_CCC.v
+

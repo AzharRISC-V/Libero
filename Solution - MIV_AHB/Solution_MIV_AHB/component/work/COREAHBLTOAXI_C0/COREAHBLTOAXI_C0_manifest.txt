@@ -1,0 +1,28 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Fri Apr  3 10:37:15 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - MIV_FP\Solution_MIV_FP
+Component :  COREAHBLTOAXI_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AHBAccessControl.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AXIAccessControl.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_RDCHANNELFIFO.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_WRCHANNELFIFO.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_rdch_ram.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_reset_sync.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_wrch_ram.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AHBtoAXI.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AXItoAHB.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/work/COREAHBLTOAXI_C0/COREAHBLTOAXI_C0.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/work/COREAHBLTOAXI_C0/COREAHBLTOAXI_C0_0/rtl/vhdl/core/CoreAHBLtoAXI.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/test/user/XHDL_misc.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/test/user/axi_slave.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/work/COREAHBLTOAXI_C0/COREAHBLTOAXI_C0_0/coreparameters.vhd
+    C:/Users/Public/Documents/Libero/Solution - MIV_FP/Solution_MIV_FP/component/work/COREAHBLTOAXI_C0/COREAHBLTOAXI_C0_0/rtl/vhdl/test/user/Tb_CoreAHBLtoAXI.vhd
+

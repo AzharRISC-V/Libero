@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.21)
+
+Date      :  Mon Nov 25 15:57:07 2019
+Project   :  E:\12.2_Designs\PF\TU0775_MiV\Qality\mpf_tu0775_df\Solution\Libero_Project
+Component :  reset_syn_1
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Qality/mpf_tu0775_df/Solution/Libero_Project/component/work/reset_syn_1/reset_syn_1.v
+    E:/12.2_Designs/PF/TU0775_MiV/Qality/mpf_tu0775_df/Solution/Libero_Project/component/work/reset_syn_1/reset_syn_1_0/core/corereset_pf.v
+
+Stimulus files for all Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Qality/mpf_tu0775_df/Solution/Libero_Project/component/work/reset_syn_1/reset_syn_1_0/test/corereset_pf_tb.v
+

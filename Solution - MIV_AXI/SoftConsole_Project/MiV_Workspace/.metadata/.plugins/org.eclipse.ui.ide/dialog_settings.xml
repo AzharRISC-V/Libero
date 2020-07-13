@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.googlecode.cppcheclipse.feature:1.1.1.v20180105-1603"/>
+		<item value="ilg.gnumcueclipse.debug.gdbjtag.openocd.feature:4.3.3.201901011632"/>
+		<item value="ilg.gnumcueclipse.managedbuild.cross.arm.feature:2.6.4.201901011632"/>
+		<item value="ilg.gnumcueclipse.managedbuild.cross.riscv.feature:2.8.2.201901011632"/>
+		<item value="org.eclipse.cdt.gdb:9.5.5.201811180605"/>
+		<item value="org.eclipse.cdt:9.5.5.201811180605"/>
+		<item value="org.eclipse.egit:5.1.0.201809111528-r"/>
+		<item value="org.eclipse.emf.common:2.15.0.v20180723-1316"/>
+		<item value="org.eclipse.emf.ecore:2.15.0.v20180722-1159"/>
+		<item value="org.eclipse.help:2.2.300.v20180906-0745"/>
+		<item value="org.eclipse.jgit.lfs:5.1.0.201809111528-r"/>
+		<item value="org.eclipse.jgit:5.1.0.201809111528-r"/>
+		<item value="org.eclipse.platform:4.9.0.v20180906-1121"/>
+		<item value="org.eclipse.rcp:4.9.0.v20180906-1121"/>
+		<item value="org.eclipse.tm.terminal.control.feature:4.5.0.201809101428"/>
+		<item value="org.eclipse.tm.terminal.feature:4.5.0.201809101428"/>
+		<item value="org.eclipse.tm.terminal.view.feature:4.5.0.201809101428"/>
+		<item value="org.robotframework.ide.eclipse.main.feature:0.8.13.201907181006"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="465" key="DIALOG_HEIGHT"/>
+		<item value="590" key="DIALOG_X_ORIGIN"/>
+		<item value="195" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+	</section>
+</section>

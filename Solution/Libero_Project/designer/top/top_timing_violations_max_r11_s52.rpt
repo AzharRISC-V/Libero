@@ -1,0 +1,920 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v12.3
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+Date: Fri Mar  6 16:59:59 2020
+
+
+Design: top
+Family: PolarFire
+Die: MPF300TS
+Package: FCG1152
+Temperature Range: -40 - 100 C
+Voltage Range: 0.97 - 1.03 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: slow_lv_ht, slow_lv_lt, fast_hv_lt
+Scenario for Timing Analysis: timing_analysis
+
+
+Path 1
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data[25]:D
+  Delay (ns):              4.654
+  Slack (ns):              1.224
+  Arrival (ns):           11.592
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr2[25]:D
+  Delay (ns):              4.649
+  Slack (ns):              1.229
+  Arrival (ns):           11.587
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr2[33]:D
+  Delay (ns):              4.596
+  Slack (ns):              1.280
+  Arrival (ns):           11.534
+  Required (ns):          12.814
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d1[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data[25]:D
+  Delay (ns):              4.594
+  Slack (ns):              1.284
+  Arrival (ns):           11.532
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d1[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr2[25]:D
+  Delay (ns):              4.589
+  Slack (ns):              1.289
+  Arrival (ns):           11.527
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 6
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr3[33]:D
+  Delay (ns):              4.572
+  Slack (ns):              1.304
+  Arrival (ns):           11.510
+  Required (ns):          12.814
+  Operating Conditions: slow_lv_ht
+
+Path 7
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr3[25]:D
+  Delay (ns):              4.568
+  Slack (ns):              1.311
+  Arrival (ns):           11.506
+  Required (ns):          12.817
+  Operating Conditions: slow_lv_ht
+
+Path 8
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data[52]:D
+  Delay (ns):              4.545
+  Slack (ns):              1.323
+  Arrival (ns):           11.483
+  Required (ns):          12.806
+  Operating Conditions: slow_lv_ht
+
+Path 9
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d0[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr3[52]:D
+  Delay (ns):              4.545
+  Slack (ns):              1.323
+  Arrival (ns):           11.483
+  Required (ns):          12.806
+  Operating Conditions: slow_lv_ht
+
+Path 10
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d1[9]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr2[33]:D
+  Delay (ns):              4.543
+  Slack (ns):              1.333
+  Arrival (ns):           11.481
+  Required (ns):          12.814
+  Operating Conditions: slow_lv_ht
+
+Path 11
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d1_tmr2[8]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data[25]:D
+  Delay (ns):              4.541
+  Slack (ns):              1.333
+  Arrival (ns):           11.483
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 12
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/MSC_i_39/MSC_i_40/MSC_i_41/d1_tmr2[8]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/rd_data_asm_fifo_wr_data_tmr2[25]:D
+  Delay (ns):              4.536
+  Slack (ns):              1.338
+  Arrival (ns):           11.478
+  Required (ns):          12.816
+  Operating Conditions: slow_lv_ht
+
+Path 13
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last_tmr3[6]:ALn
+  Delay (ns):              4.338
+  Slack (ns):              1.340
+  Arrival (ns):           11.316
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 14
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last_tmr3[4]:ALn
+  Delay (ns):              4.338
+  Slack (ns):              1.340
+  Arrival (ns):           11.316
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 15
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last[4]:ALn
+  Delay (ns):              4.337
+  Slack (ns):              1.341
+  Arrival (ns):           11.315
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 16
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr3[4]:ALn
+  Delay (ns):              4.332
+  Slack (ns):              1.341
+  Arrival (ns):           11.310
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 17
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr2[4]:ALn
+  Delay (ns):              4.332
+  Slack (ns):              1.341
+  Arrival (ns):           11.310
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 18
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[15]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder_tmr2[51]:D
+  Delay (ns):              7.600
+  Slack (ns):              1.342
+  Arrival (ns):           10.896
+  Required (ns):          12.238
+  Operating Conditions: slow_lv_lt
+
+Path 19
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt_tmr2[1]:ALn
+  Delay (ns):              4.326
+  Slack (ns):              1.342
+  Arrival (ns):           11.304
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 20
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt_tmr2[2]:ALn
+  Delay (ns):              4.326
+  Slack (ns):              1.342
+  Arrival (ns):           11.304
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 21
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current[23]:ALn
+  Delay (ns):              4.328
+  Slack (ns):              1.342
+  Arrival (ns):           11.306
+  Required (ns):          12.648
+  Operating Conditions: slow_lv_ht
+
+Path 22
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/current_state[7]:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.342
+  Arrival (ns):           11.303
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 23
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last_tmr2[4]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 24
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last_tmr2[6]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 25
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_last[6]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 26
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first_tmr3[6]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 27
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first_tmr2[6]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 28
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first_tmr2[4]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 29
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first_tmr3[4]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 30
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first[4]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 31
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/dqsw_flag_reg_tmr2:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.342
+  Arrival (ns):           11.303
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 32
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/dqsw270_flag_reg_tmr2:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.342
+  Arrival (ns):           11.303
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 33
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/dqsw270_flag_reg:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.342
+  Arrival (ns):           11.303
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 34
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/tap_count_first[6]:ALn
+  Delay (ns):              4.336
+  Slack (ns):              1.342
+  Arrival (ns):           11.314
+  Required (ns):          12.656
+  Operating Conditions: slow_lv_ht
+
+Path 35
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt[1]:ALn
+  Delay (ns):              4.326
+  Slack (ns):              1.342
+  Arrival (ns):           11.304
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 36
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr3[2]:ALn
+  Delay (ns):              4.331
+  Slack (ns):              1.342
+  Arrival (ns):           11.309
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 37
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7[5]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 38
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr2[1]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 39
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr2[2]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 40
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr2[5]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 41
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr3[1]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 42
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7[1]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 43
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/visual_dq_dqs_optimisation_current_tmr2[2]:ALn
+  Delay (ns):              4.313
+  Slack (ns):              1.343
+  Arrival (ns):           11.291
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 44
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/read_count_tmr2[6]:ALn
+  Delay (ns):              4.328
+  Slack (ns):              1.343
+  Arrival (ns):           11.306
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 45
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[15]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[51]:D
+  Delay (ns):              7.599
+  Slack (ns):              1.343
+  Arrival (ns):           10.895
+  Required (ns):          12.238
+  Operating Conditions: slow_lv_lt
+
+Path 46
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/dqsw_flag_reg_tmr3:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.343
+  Arrival (ns):           11.303
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 47
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt[2]:ALn
+  Delay (ns):              4.326
+  Slack (ns):              1.343
+  Arrival (ns):           11.304
+  Required (ns):          12.647
+  Operating Conditions: slow_lv_ht
+
+Path 48
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt_tmr3[1]:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.343
+  Arrival (ns):           11.303
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 49
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current[21]:ALn
+  Delay (ns):              4.328
+  Slack (ns):              1.343
+  Arrival (ns):           11.306
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 50
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr3[21]:ALn
+  Delay (ns):              4.327
+  Slack (ns):              1.343
+  Arrival (ns):           11.305
+  Required (ns):          12.648
+  Operating Conditions: slow_lv_ht
+
+Path 51
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr3[23]:ALn
+  Delay (ns):              4.327
+  Slack (ns):              1.343
+  Arrival (ns):           11.305
+  Required (ns):          12.648
+  Operating Conditions: slow_lv_ht
+
+Path 52
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/current_state[3]:ALn
+  Delay (ns):              4.324
+  Slack (ns):              1.343
+  Arrival (ns):           11.302
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 53
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/noise_start_tmr2:ALn
+  Delay (ns):              4.324
+  Slack (ns):              1.343
+  Arrival (ns):           11.302
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 54
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/current_state_tmr2[7]:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.343
+  Arrival (ns):           11.303
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 55
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/current_state_tmr3[7]:ALn
+  Delay (ns):              4.324
+  Slack (ns):              1.343
+  Arrival (ns):           11.302
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 56
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delay_cnt_minus1[0]:ALn
+  Delay (ns):              4.313
+  Slack (ns):              1.343
+  Arrival (ns):           11.291
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 57
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7[2]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 58
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7[4]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 59
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_7_tmr3[5]:ALn
+  Delay (ns):              4.330
+  Slack (ns):              1.343
+  Arrival (ns):           11.308
+  Required (ns):          12.651
+  Operating Conditions: slow_lv_ht
+
+Path 60
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/read_count_tmr3[6]:ALn
+  Delay (ns):              4.328
+  Slack (ns):              1.343
+  Arrival (ns):           11.306
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 61
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/iog_dq_txdata_out[102]:ALn
+  Delay (ns):              4.291
+  Slack (ns):              1.344
+  Arrival (ns):           11.269
+  Required (ns):          12.613
+  Operating Conditions: slow_lv_ht
+
+Path 62
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[1].dqsw_trainer/dqsw_flag_reg:ALn
+  Delay (ns):              4.324
+  Slack (ns):              1.344
+  Arrival (ns):           11.302
+  Required (ns):          12.646
+  Operating Conditions: slow_lv_ht
+
+Path 63
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr3[1]:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 64
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/dqsw_flag_reg:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 65
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/dqsw270_flag_reg_tmr3:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 66
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/dqsw270_flag_reg_tmr2:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 67
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/current_state_tmr2[3]:ALn
+  Delay (ns):              4.323
+  Slack (ns):              1.344
+  Arrival (ns):           11.301
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 68
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/tap_count_first_tmr3[5]:ALn
+  Delay (ns):              4.360
+  Slack (ns):              1.344
+  Arrival (ns):           11.338
+  Required (ns):          12.682
+  Operating Conditions: slow_lv_ht
+
+Path 69
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/tap_count_first[5]:ALn
+  Delay (ns):              4.360
+  Slack (ns):              1.344
+  Arrival (ns):           11.338
+  Required (ns):          12.682
+  Operating Conditions: slow_lv_ht
+
+Path 70
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr3[17]:ALn
+  Delay (ns):              4.322
+  Slack (ns):              1.344
+  Arrival (ns):           11.300
+  Required (ns):          12.644
+  Operating Conditions: slow_lv_ht
+
+Path 71
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr2[23]:ALn
+  Delay (ns):              4.326
+  Slack (ns):              1.344
+  Arrival (ns):           11.304
+  Required (ns):          12.648
+  Operating Conditions: slow_lv_ht
+
+Path 72
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr2[21]:ALn
+  Delay (ns):              4.327
+  Slack (ns):              1.344
+  Arrival (ns):           11.305
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 73
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current_tmr2[17]:ALn
+  Delay (ns):              4.322
+  Slack (ns):              1.344
+  Arrival (ns):           11.300
+  Required (ns):          12.644
+  Operating Conditions: slow_lv_ht
+
+Path 74
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/visual_gate_training_current[17]:ALn
+  Delay (ns):              4.322
+  Slack (ns):              1.344
+  Arrival (ns):           11.300
+  Required (ns):          12.644
+  Operating Conditions: slow_lv_ht
+
+Path 75
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/txdly_cnt_tmr3[2]:ALn
+  Delay (ns):              4.325
+  Slack (ns):              1.344
+  Arrival (ns):           11.303
+  Required (ns):          12.647
+  Operating Conditions: slow_lv_ht
+
+Path 76
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/read_count_tmr2[8]:ALn
+  Delay (ns):              4.327
+  Slack (ns):              1.344
+  Arrival (ns):           11.305
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 77
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/gate_training/read_count[3]:ALn
+  Delay (ns):              4.327
+  Slack (ns):              1.344
+  Arrival (ns):           11.305
+  Required (ns):          12.649
+  Operating Conditions: slow_lv_ht
+
+Path 78
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr3[3]:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 79
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr3[2]:ALn
+  Delay (ns):              4.317
+  Slack (ns):              1.344
+  Arrival (ns):           11.295
+  Required (ns):          12.639
+  Operating Conditions: slow_lv_ht
+
+Path 80
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr3[0]:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 81
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr2[5]:ALn
+  Delay (ns):              4.317
+  Slack (ns):              1.344
+  Arrival (ns):           11.295
+  Required (ns):          12.639
+  Operating Conditions: slow_lv_ht
+
+Path 82
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw[5]:ALn
+  Delay (ns):              4.317
+  Slack (ns):              1.344
+  Arrival (ns):           11.295
+  Required (ns):          12.639
+  Operating Conditions: slow_lv_ht
+
+Path 83
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw[3]:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 84
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw[0]:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 85
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqsOrStw_2_endw_tmr3[0]:ALn
+  Delay (ns):              4.312
+  Slack (ns):              1.344
+  Arrival (ns):           11.290
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 86
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqs_2_stw_tmr2[2]:ALn
+  Delay (ns):              4.317
+  Slack (ns):              1.344
+  Arrival (ns):           11.295
+  Required (ns):          12.639
+  Operating Conditions: slow_lv_ht
+
+Path 87
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/genblk2[0].dqsw_trainer/dqsw_flag_reg_tmr2:ALn
+  Delay (ns):              4.318
+  Slack (ns):              1.344
+  Arrival (ns):           11.296
+  Required (ns):          12.640
+  Operating Conditions: slow_lv_ht
+
+Path 88
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/cmd_fifo_wr_data_reg3_tmr2[6]:ALn
+  Delay (ns):              4.303
+  Slack (ns):              1.344
+  Arrival (ns):           11.281
+  Required (ns):          12.625
+  Operating Conditions: slow_lv_ht
+
+Path 89
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/cmd_fifo_wr_data_reg2_tmr3[33]:ALn
+  Delay (ns):              4.298
+  Slack (ns):              1.344
+  Arrival (ns):           11.276
+  Required (ns):          12.620
+  Operating Conditions: slow_lv_ht
+
+Path 90
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_6/cmd_fifo_wr_data_reg1_tmr2[6]:ALn
+  Delay (ns):              4.303
+  Slack (ns):              1.344
+  Arrival (ns):           11.281
+  Required (ns):          12.625
+  Operating Conditions: slow_lv_ht
+
+Path 91
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/iog_dq_txdata_out_tmr2[100]:ALn
+  Delay (ns):              4.291
+  Slack (ns):              1.344
+  Arrival (ns):           11.269
+  Required (ns):          12.613
+  Operating Conditions: slow_lv_ht
+
+Path 92
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_2[0]:ALn
+  Delay (ns):              4.322
+  Slack (ns):              1.345
+  Arrival (ns):           11.300
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 93
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delta_delay_2_tmr2[6]:ALn
+  Delay (ns):              4.322
+  Slack (ns):              1.345
+  Arrival (ns):           11.300
+  Required (ns):          12.645
+  Operating Conditions: slow_lv_ht
+
+Path 94
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqsOrStw_2_endw[0]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 95
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqsOrStw_2_endw[1]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 96
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/initlDqsOrStw_2_endw_tmr2[0]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 97
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delay_cnt_minus1[1]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 98
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delay_cnt_minus1_tmr2[0]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 99
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delay_cnt_minus1_tmr2[1]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+
+Path 100
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[0].RDLVL_TRAIN/dq_align_dqs_optimization/delay_cnt_minus1_tmr3[0]:ALn
+  Delay (ns):              4.311
+  Slack (ns):              1.345
+  Arrival (ns):           11.289
+  Required (ns):          12.634
+  Operating Conditions: slow_lv_ht
+

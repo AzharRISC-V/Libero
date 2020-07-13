@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.21)
+
+Date      :  Mon Oct 21 10:04:28 2019
+Project   :  E:\12.2_Designs\PF\TU0775_MiV\Solution\Libero_Project
+Component :  CORAXITOAHBL_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_AHBMasterCtrl.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_AXIOutReg.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_AXISlaveCtrl.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_RAM_syncWrAsyncRd.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_WSTRBAddrOffset.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_WSTRBPopCntr.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_readByteCnt.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/core/CoreAXItoAHBL_synchronizer.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/CORAXITOAHBL_0/CORAXITOAHBL_0.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/CORAXITOAHBL_0/CORAXITOAHBL_0_0/rtl/vlog/core/CoreAXItoAHBL.v
+
+Stimulus files for all Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/test/user/AHBL_Slave.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/COREAXITOAHBL/3.4.100/rtl/vlog/test/user/AXI_Master.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/CORAXITOAHBL_0/CORAXITOAHBL_0_0/coreparameters.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/CORAXITOAHBL_0/CORAXITOAHBL_0_0/rtl/vlog/test/user/testbench.v
+

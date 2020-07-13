@@ -1,0 +1,41 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Mon Mar 16 12:49:31 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project
+Component :  UART_apb_1
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core/core/coreuart_pkg.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/Clock_gen.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/CoreUART.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/CoreUARTapb.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/Rx_async.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/Tx_async.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/components.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/core_obfuscated/fifo_256x8_54sxa.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/mti/scripts/wave_vhdl_amba.do
+
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/coreparameters.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_ahbl.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_ahblapb.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_ahbtoapb.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_apb.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_apbslave.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_apbslaveext.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_apbtoapb.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_main.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/bfm_package.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/misc.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/amba_bfm/textio.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/UART_apb_1/UART_apb_1_0/rtl/vhdl/test/user/testbench.vhd
+

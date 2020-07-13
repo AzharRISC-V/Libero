@@ -1,0 +1,7 @@
+C:\new_Microsemi\Libero_SoC_v12.3\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.top  -multisrs  C:\Users\Public\Documents\Libero\Solution\Libero_Project\synthesis\synwork\top_comp.srs  -osyn  C:\Users\Public\Documents\Libero\Solution\Libero_Project\synthesis\synwork\top_mult.srs  -log  C:\Users\Public\Documents\Libero\Solution\Libero_Project\synthesis\synlog\top_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\new_Microsemi\Libero_SoC_v12.3\SynplifyPro\bin64\syn_nfilter.exe -link -top work.top -multisrs ..\synwork\top_comp.srs -osyn ..\synwork\top_mult.srs -log ..\synlog\top_multi_srs_gen.srr
+rc:0 success:1 runtime:7
+file:..\synwork\top_comp.srs|io:i|time:1584153108|size:11689085|exec:0|csum:D03B79CF7F2AFFFC719D0C5C40488616
+file:..\synwork\top_mult.srs|io:o|time:1584153115|size:27092|exec:0|csum:
+file:..\synlog\top_multi_srs_gen.srr|io:o|time:1584153115|size:16986|exec:0|csum:
+file:..\..\..\..\..\..\..\..\new_Microsemi\Libero_SoC_v12.3\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1562075633|size:8810496|exec:1|csum:20DB59B568B25441B8251D61083745CC

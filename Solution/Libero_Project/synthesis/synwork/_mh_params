@@ -1,0 +1,16 @@
+top work.UART_apb
+top work.SPI_Controller
+top work.reset_syn_1
+top work.reset_syn_0
+top work.MiV_AXI
+top work.LSRAM
+top work.INIT_Monitor
+top work.DDR3_0
+top work.COREJTAGDebug_0
+top work.COREGPIO_0
+top work.COREAHBTOAPB3_0
+top work.COREAHBLITE_0
+top work.CORAXITOAHBL_0
+top work.CCC_0
+top work.AXI4_Interconnect
+top work.APB3

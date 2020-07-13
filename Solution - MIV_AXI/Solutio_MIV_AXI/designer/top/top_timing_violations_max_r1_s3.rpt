@@ -1,0 +1,820 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version 
+Microsemi Corporation - Microsemi Libero Software Release  (Version 12.700.0.19)
+Date: Wed Sep 11 15:39:05 2019
+
+
+Design: top
+Family: PolarFire
+Die: MPF300TS
+Package: FCG1152
+Temperature Range: -40 - 100 C
+Voltage Range: 1.0185 - 1.0815 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Operating Conditions: slow_lv_ht
+Scenario for Timing Analysis: timing_analysis
+
+
+Path 1
+  From: DDR3_0_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL:FAB_CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/LEVELLING/RDLVL/RDLVL_SMS/genblk1[1].RDLVL_TRAIN/gate_training/burst_detected:EN
+  Delay (ns):              2.820
+  Slack (ns):              2.734
+  Arrival (ns):            9.427
+  Required (ns):          12.161
+
+Path 2
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.214
+  Slack (ns):              2.757
+  Arrival (ns):            9.646
+  Required (ns):          12.403
+
+Path 3
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.213
+  Slack (ns):              2.758
+  Arrival (ns):            9.645
+  Required (ns):          12.403
+
+Path 4
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.212
+  Slack (ns):              2.759
+  Arrival (ns):            9.644
+  Required (ns):          12.403
+
+Path 5
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.212
+  Slack (ns):              2.759
+  Arrival (ns):            9.644
+  Required (ns):          12.403
+
+Path 6
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[0]:SLn
+  Delay (ns):              3.160
+  Slack (ns):              2.766
+  Arrival (ns):            9.559
+  Required (ns):          12.325
+
+Path 7
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[6]:SLn
+  Delay (ns):              3.160
+  Slack (ns):              2.766
+  Arrival (ns):            9.559
+  Required (ns):          12.325
+
+Path 8
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[8]:SLn
+  Delay (ns):              3.160
+  Slack (ns):              2.766
+  Arrival (ns):            9.559
+  Required (ns):          12.325
+
+Path 9
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[1]:SLn
+  Delay (ns):              3.157
+  Slack (ns):              2.769
+  Arrival (ns):            9.556
+  Required (ns):          12.325
+
+Path 10
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[7]:SLn
+  Delay (ns):              3.157
+  Slack (ns):              2.769
+  Arrival (ns):            9.556
+  Required (ns):          12.325
+
+Path 11
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.170
+  Slack (ns):              2.776
+  Arrival (ns):            9.602
+  Required (ns):          12.378
+
+Path 12
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[0]:SLn
+  Delay (ns):              3.150
+  Slack (ns):              2.776
+  Arrival (ns):            9.549
+  Required (ns):          12.325
+
+Path 13
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[6]:SLn
+  Delay (ns):              3.150
+  Slack (ns):              2.776
+  Arrival (ns):            9.549
+  Required (ns):          12.325
+
+Path 14
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[8]:SLn
+  Delay (ns):              3.150
+  Slack (ns):              2.776
+  Arrival (ns):            9.549
+  Required (ns):          12.325
+
+Path 15
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.169
+  Slack (ns):              2.777
+  Arrival (ns):            9.601
+  Required (ns):          12.378
+
+Path 16
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.169
+  Slack (ns):              2.777
+  Arrival (ns):            9.601
+  Required (ns):          12.378
+
+Path 17
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.168
+  Slack (ns):              2.778
+  Arrival (ns):            9.600
+  Required (ns):          12.378
+
+Path 18
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[1]:SLn
+  Delay (ns):              3.147
+  Slack (ns):              2.779
+  Arrival (ns):            9.546
+  Required (ns):          12.325
+
+Path 19
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[7]:SLn
+  Delay (ns):              3.147
+  Slack (ns):              2.779
+  Arrival (ns):            9.546
+  Required (ns):          12.325
+
+Path 20
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.173
+  Slack (ns):              2.798
+  Arrival (ns):            9.605
+  Required (ns):          12.403
+
+Path 21
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.172
+  Slack (ns):              2.799
+  Arrival (ns):            9.604
+  Required (ns):          12.403
+
+Path 22
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[0]:SLn
+  Delay (ns):              3.126
+  Slack (ns):              2.800
+  Arrival (ns):            9.525
+  Required (ns):          12.325
+
+Path 23
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[6]:SLn
+  Delay (ns):              3.126
+  Slack (ns):              2.800
+  Arrival (ns):            9.525
+  Required (ns):          12.325
+
+Path 24
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[8]:SLn
+  Delay (ns):              3.126
+  Slack (ns):              2.800
+  Arrival (ns):            9.525
+  Required (ns):          12.325
+
+Path 25
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.171
+  Slack (ns):              2.800
+  Arrival (ns):            9.603
+  Required (ns):          12.403
+
+Path 26
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.171
+  Slack (ns):              2.800
+  Arrival (ns):            9.603
+  Required (ns):          12.403
+
+Path 27
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[1]:SLn
+  Delay (ns):              3.123
+  Slack (ns):              2.803
+  Arrival (ns):            9.522
+  Required (ns):          12.325
+
+Path 28
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[7]:SLn
+  Delay (ns):              3.123
+  Slack (ns):              2.803
+  Arrival (ns):            9.522
+  Required (ns):          12.325
+
+Path 29
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.138
+  Slack (ns):              2.807
+  Arrival (ns):            9.571
+  Required (ns):          12.378
+
+Path 30
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.137
+  Slack (ns):              2.808
+  Arrival (ns):            9.570
+  Required (ns):          12.378
+
+Path 31
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.137
+  Slack (ns):              2.808
+  Arrival (ns):            9.570
+  Required (ns):          12.378
+
+Path 32
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.136
+  Slack (ns):              2.809
+  Arrival (ns):            9.569
+  Required (ns):          12.378
+
+Path 33
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.142
+  Slack (ns):              2.809
+  Arrival (ns):            9.569
+  Required (ns):          12.378
+
+Path 34
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.141
+  Slack (ns):              2.810
+  Arrival (ns):            9.568
+  Required (ns):          12.378
+
+Path 35
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.141
+  Slack (ns):              2.810
+  Arrival (ns):            9.568
+  Required (ns):          12.378
+
+Path 36
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.162
+  Slack (ns):              2.810
+  Arrival (ns):            9.594
+  Required (ns):          12.404
+
+Path 37
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.140
+  Slack (ns):              2.811
+  Arrival (ns):            9.567
+  Required (ns):          12.378
+
+Path 38
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_213/MSC_i_216/data_r2_Z[19]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/rmw_b_size[5]:D
+  Delay (ns):              3.120
+  Slack (ns):              2.811
+  Arrival (ns):            9.531
+  Required (ns):          12.342
+
+Path 39
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_213/MSC_i_216/data_r1_Z[19]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/rmw_b_size[5]:D
+  Delay (ns):              3.100
+  Slack (ns):              2.813
+  Arrival (ns):            9.529
+  Required (ns):          12.342
+
+Path 40
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.131
+  Slack (ns):              2.814
+  Arrival (ns):            9.564
+  Required (ns):          12.378
+
+Path 41
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.130
+  Slack (ns):              2.815
+  Arrival (ns):            9.563
+  Required (ns):          12.378
+
+Path 42
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.130
+  Slack (ns):              2.815
+  Arrival (ns):            9.563
+  Required (ns):          12.378
+
+Path 43
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.129
+  Slack (ns):              2.816
+  Arrival (ns):            9.562
+  Required (ns):          12.378
+
+Path 44
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_213/MSC_i_216/full[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/rmw_b_size[5]:D
+  Delay (ns):              3.110
+  Slack (ns):              2.823
+  Arrival (ns):            9.519
+  Required (ns):          12.342
+
+Path 45
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[0]:EN
+  Delay (ns):              2.999
+  Slack (ns):              2.826
+  Arrival (ns):            9.433
+  Required (ns):          12.259
+
+Path 46
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[2]:EN
+  Delay (ns):              2.999
+  Slack (ns):              2.826
+  Arrival (ns):            9.433
+  Required (ns):          12.259
+
+Path 47
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.118
+  Slack (ns):              2.829
+  Arrival (ns):            9.550
+  Required (ns):          12.379
+
+Path 48
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[0]:EN
+  Delay (ns):              2.985
+  Slack (ns):              2.838
+  Arrival (ns):            9.421
+  Required (ns):          12.259
+
+Path 49
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[2]:EN
+  Delay (ns):              2.985
+  Slack (ns):              2.838
+  Arrival (ns):            9.421
+  Required (ns):          12.259
+
+Path 50
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_213/MSC_i_216/data_r1_Z[6]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/rmw_b_size[5]:D
+  Delay (ns):              3.077
+  Slack (ns):              2.840
+  Arrival (ns):            9.514
+  Required (ns):          12.354
+
+Path 51
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[9]:D
+  Delay (ns):              3.042
+  Slack (ns):              2.843
+  Arrival (ns):            9.430
+  Required (ns):          12.273
+
+Path 52
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[58]:D
+  Delay (ns):              3.039
+  Slack (ns):              2.846
+  Arrival (ns):            9.427
+  Required (ns):          12.273
+
+Path 53
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[0]:EN
+  Delay (ns):              2.978
+  Slack (ns):              2.847
+  Arrival (ns):            9.412
+  Required (ns):          12.259
+
+Path 54
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_vcophsel_index[2]:EN
+  Delay (ns):              2.978
+  Slack (ns):              2.847
+  Arrival (ns):            9.412
+  Required (ns):          12.259
+
+Path 55
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[49]:D
+  Delay (ns):              3.038
+  Slack (ns):              2.848
+  Arrival (ns):            9.426
+  Required (ns):          12.274
+
+Path 56
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.121
+  Slack (ns):              2.851
+  Arrival (ns):            9.553
+  Required (ns):          12.404
+
+Path 57
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.092
+  Slack (ns):              2.853
+  Arrival (ns):            9.525
+  Required (ns):          12.378
+
+Path 58
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[2]:SLn
+  Delay (ns):              3.032
+  Slack (ns):              2.853
+  Arrival (ns):            9.431
+  Required (ns):          12.284
+
+Path 59
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.091
+  Slack (ns):              2.854
+  Arrival (ns):            9.524
+  Required (ns):          12.378
+
+Path 60
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.091
+  Slack (ns):              2.854
+  Arrival (ns):            9.524
+  Required (ns):          12.378
+
+Path 61
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.090
+  Slack (ns):              2.855
+  Arrival (ns):            9.523
+  Required (ns):          12.378
+
+Path 62
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.086
+  Slack (ns):              2.860
+  Arrival (ns):            9.519
+  Required (ns):          12.379
+
+Path 63
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.090
+  Slack (ns):              2.862
+  Arrival (ns):            9.517
+  Required (ns):          12.379
+
+Path 64
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[2]:SLn
+  Delay (ns):              3.022
+  Slack (ns):              2.863
+  Arrival (ns):            9.421
+  Required (ns):          12.284
+
+Path 65
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.079
+  Slack (ns):              2.867
+  Arrival (ns):            9.512
+  Required (ns):          12.379
+
+Path 66
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.072
+  Slack (ns):              2.873
+  Arrival (ns):            9.505
+  Required (ns):          12.378
+
+Path 67
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.071
+  Slack (ns):              2.874
+  Arrival (ns):            9.504
+  Required (ns):          12.378
+
+Path 68
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.071
+  Slack (ns):              2.874
+  Arrival (ns):            9.504
+  Required (ns):          12.378
+
+Path 69
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.070
+  Slack (ns):              2.875
+  Arrival (ns):            9.503
+  Required (ns):          12.378
+
+Path 70
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[1]:EN
+  Delay (ns):              2.960
+  Slack (ns):              2.885
+  Arrival (ns):            9.394
+  Required (ns):          12.279
+
+Path 71
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[2]:EN
+  Delay (ns):              2.961
+  Slack (ns):              2.885
+  Arrival (ns):            9.395
+  Required (ns):          12.280
+
+Path 72
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[4]:EN
+  Delay (ns):              2.961
+  Slack (ns):              2.885
+  Arrival (ns):            9.395
+  Required (ns):          12.280
+
+Path 73
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[6]:EN
+  Delay (ns):              2.961
+  Slack (ns):              2.885
+  Arrival (ns):            9.395
+  Required (ns):          12.280
+
+Path 74
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[3]:EN
+  Delay (ns):              2.960
+  Slack (ns):              2.886
+  Arrival (ns):            9.394
+  Required (ns):          12.280
+
+Path 75
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[1]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[5]:EN
+  Delay (ns):              2.960
+  Slack (ns):              2.886
+  Arrival (ns):            9.394
+  Required (ns):          12.280
+
+Path 76
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_rd_ptr[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/wrtq_wr_count[2]:SLn
+  Delay (ns):              2.998
+  Slack (ns):              2.887
+  Arrival (ns):            9.397
+  Required (ns):          12.284
+
+Path 77
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_51/MSC_i_52/MSC_i_62/s1:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_104/MSC_i_105/gen_dc_level.wr_ready:D
+  Delay (ns):              3.021
+  Slack (ns):              2.894
+  Arrival (ns):            9.406
+  Required (ns):          12.300
+
+Path 78
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[1]:EN
+  Delay (ns):              2.946
+  Slack (ns):              2.897
+  Arrival (ns):            9.382
+  Required (ns):          12.279
+
+Path 79
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[2]:EN
+  Delay (ns):              2.947
+  Slack (ns):              2.897
+  Arrival (ns):            9.383
+  Required (ns):          12.280
+
+Path 80
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[4]:EN
+  Delay (ns):              2.947
+  Slack (ns):              2.897
+  Arrival (ns):            9.383
+  Required (ns):          12.280
+
+Path 81
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[6]:EN
+  Delay (ns):              2.947
+  Slack (ns):              2.897
+  Arrival (ns):            9.383
+  Required (ns):          12.280
+
+Path 82
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[3]:EN
+  Delay (ns):              2.946
+  Slack (ns):              2.898
+  Arrival (ns):            9.382
+  Required (ns):          12.280
+
+Path 83
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[0]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[5]:EN
+  Delay (ns):              2.946
+  Slack (ns):              2.898
+  Arrival (ns):            9.382
+  Required (ns):          12.280
+
+Path 84
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[31]:D
+  Delay (ns):              2.984
+  Slack (ns):              2.898
+  Arrival (ns):            9.372
+  Required (ns):          12.270
+
+Path 85
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[43]:D
+  Delay (ns):              2.983
+  Slack (ns):              2.898
+  Arrival (ns):            9.371
+  Required (ns):          12.269
+
+Path 86
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_select:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_213/MSC_i_214/MSC_i_215/fifo_rd_valid:D
+  Delay (ns):              2.975
+  Slack (ns):              2.905
+  Arrival (ns):            9.408
+  Required (ns):          12.313
+
+Path 87
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[1]:EN
+  Delay (ns):              2.939
+  Slack (ns):              2.906
+  Arrival (ns):            9.373
+  Required (ns):          12.279
+
+Path 88
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[2]:EN
+  Delay (ns):              2.940
+  Slack (ns):              2.906
+  Arrival (ns):            9.374
+  Required (ns):          12.280
+
+Path 89
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[4]:EN
+  Delay (ns):              2.940
+  Slack (ns):              2.906
+  Arrival (ns):            9.374
+  Required (ns):          12.280
+
+Path 90
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[6]:EN
+  Delay (ns):              2.940
+  Slack (ns):              2.906
+  Arrival (ns):            9.374
+  Required (ns):          12.280
+
+Path 91
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.040
+  Slack (ns):              2.906
+  Arrival (ns):            9.473
+  Required (ns):          12.379
+
+Path 92
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/d1[11]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[9]:D
+  Delay (ns):              2.980
+  Slack (ns):              2.906
+  Arrival (ns):            9.367
+  Required (ns):          12.273
+
+Path 93
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[3]:EN
+  Delay (ns):              2.939
+  Slack (ns):              2.907
+  Arrival (ns):            9.373
+  Required (ns):          12.280
+
+Path 94
+  From: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/vcophsel_calc[2]:CLK
+  To:   DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/TRN_CLK/cmd_addr_trainer/min_outdly_val[5]:EN
+  Delay (ns):              2.939
+  Slack (ns):              2.907
+  Arrival (ns):            9.373
+  Required (ns):          12.280
+
+Path 95
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_select:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_183/read_count[10]:D
+  Delay (ns):              2.989
+  Slack (ns):              2.908
+  Arrival (ns):            9.422
+  Required (ns):          12.330
+
+Path 96
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.053
+  Slack (ns):              2.908
+  Arrival (ns):            9.470
+  Required (ns):          12.378
+
+Path 97
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[51]:D
+  Delay (ns):              2.968
+  Slack (ns):              2.908
+  Arrival (ns):            9.356
+  Required (ns):          12.264
+
+Path 98
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[55]:D
+  Delay (ns):              2.967
+  Slack (ns):              2.908
+  Arrival (ns):            9.355
+  Required (ns):          12.263
+
+Path 99
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[4]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.052
+  Slack (ns):              2.909
+  Arrival (ns):            9.469
+  Required (ns):          12.378
+
+Path 100
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/d1[11]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[58]:D
+  Delay (ns):              2.977
+  Slack (ns):              2.909
+  Arrival (ns):            9.364
+  Required (ns):          12.273
+

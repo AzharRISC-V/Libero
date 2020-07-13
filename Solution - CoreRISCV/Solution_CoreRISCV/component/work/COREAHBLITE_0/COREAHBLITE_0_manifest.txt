@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.21)
+
+Date      :  Mon Oct 21 10:08:48 2019
+Project   :  E:\12.2_Designs\PF\TU0775_MiV\Solution\Libero_Project
+Component :  COREAHBLITE_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_addrdec.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_defaultslavesm.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_masterstage.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_matrix4x16.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_slavearbiter.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_slavestage.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/COREAHBLITE_0/COREAHBLITE_0.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/COREAHBLITE_0/COREAHBLITE_0_0/rtl/vlog/core/coreahblite.v
+
+Stimulus files for all Simulation tools:
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbl.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_main.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/COREAHBLITE_0/COREAHBLITE_0_0/coreparameters.v
+    E:/12.2_Designs/PF/TU0775_MiV/Solution/Libero_Project/component/work/COREAHBLITE_0/COREAHBLITE_0_0/rtl/vlog/test/user/testbench.v
+

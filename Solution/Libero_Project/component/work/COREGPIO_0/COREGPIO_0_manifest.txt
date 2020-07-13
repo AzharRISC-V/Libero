@@ -1,0 +1,31 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Wed Sep 11 14:32:22 2019
+Project   :  /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project
+Component :  COREGPIO_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/core/coregpio.v
+
+Stimulus files for all Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/bfmtovec_compile.do
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/coregpio_usertb_apb_master.bfm
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/coregpio_usertb_include.bfm
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/wave_vlog.do
+
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/coreparameters.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_apb.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/amba_bfm/bfm_main.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREGPIO_0/COREGPIO_0_0/rtl/vlog/test/user/testbench.v
+

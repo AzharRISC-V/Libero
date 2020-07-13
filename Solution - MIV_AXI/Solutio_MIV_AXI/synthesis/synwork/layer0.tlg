@@ -1,0 +1,462 @@
+@N: CD231 :"C:\new_Microsemi\Libero_SoC_v12.3\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\top\top.vhd":17:7:17:9|Synthesizing work.top.rtl.
+Running optimization stage 1 on UART_apb .......
+Running optimization stage 1 on SPI_Controller .......
+Running optimization stage 1 on reset_syn_1 .......
+Running optimization stage 1 on reset_syn_0 .......
+Running optimization stage 1 on PF_IO_I2C_SDA_0 .......
+Running optimization stage 1 on PF_IO_C0 .......
+Running optimization stage 1 on MiV_AXI .......
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\LVDS_UART_TOP\LVDS_UART_TOP.vhd":17:7:17:19|Synthesizing work.lvds_uart_top.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\LVDS_UART\LVDS_UART.vhd":17:7:17:15|Synthesizing work.lvds_uart.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":30:7:30:15|Synthesizing work.uart_fifo.uart_fifo.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":61:8:61:19|Signal encoded_byte is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":62:8:62:24|Signal read_encoded_byte is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":63:8:63:15|Signal out_byte is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.uart_fifo.uart_fifo
+Running optimization stage 1 on uart_fifo .......
+@W: CL240 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":40:3:40:11|Signal bit_error is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1.vhd":20:7:20:16|Synthesizing work.uart_apb_1.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":17:7:17:41|Synthesizing coreuartapb_lib.uart_apb_1_uart_apb_1_0_coreuartapb.cuartlol.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":237:0:237:8|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":260:0:260:8|Removing redundant assignment.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Signal cuartilll is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":17:7:17:38|Synthesizing coreuartapb_lib.uart_apb_1_uart_apb_1_0_coreuart.cuartlol.
+@W: CD434 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":265:18:265:25|Signal cuartooi in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":265:27:265:34|Signal cuartio1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":396:0:396:13|OTHERS clause is not synthesized.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":451:0:451:7|Removing redundant assignment.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:38|Synthesizing coreuartapb_lib.uart_apb_1_uart_apb_1_0_rx_async.cuartlol.
+@N: CD233 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":42:15:42:16|Using sequential encoding for type cuartol0i.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":206:0:206:8|Removing redundant assignment.
+@N: CD604 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":231:0:231:13|OTHERS clause is not synthesized.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:8|Removing redundant assignment.
+@N: CD604 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":295:0:295:13|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":386:0:386:13|OTHERS clause is not synthesized.
+Post processing for coreuartapb_lib.uart_apb_1_uart_apb_1_0_rx_async.cuartlol
+Running optimization stage 1 on UART_apb_1_UART_apb_1_0_RX_ASYNC .......
+@W: CL177 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":399:0:399:1|Sharing sequential element CUARTO01i. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:38|Synthesizing coreuartapb_lib.uart_apb_1_uart_apb_1_0_tx_async.cuartlol.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":258:0:258:8|Removing redundant assignment.
+Post processing for coreuartapb_lib.uart_apb_1_uart_apb_1_0_tx_async.cuartlol
+Running optimization stage 1 on UART_apb_1_UART_apb_1_0_TX_async .......
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Optimizing register bit CUARToil0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Pruning unused register CUARToil0. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:39|Synthesizing coreuartapb_lib.uart_apb_1_uart_apb_1_0_clock_gen.cuarti.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":36:7:36:13|Signal cuartli is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coreuartapb_lib.uart_apb_1_uart_apb_1_0_clock_gen.cuarti
+Running optimization stage 1 on UART_apb_1_UART_apb_1_0_Clock_gen .......
+Post processing for coreuartapb_lib.uart_apb_1_uart_apb_1_0_coreuart.cuartlol
+Running optimization stage 1 on UART_apb_1_UART_apb_1_0_COREUART .......
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":440:0:440:1|Pruning unused register CUARTli0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":416:0:416:1|Pruning unused register CUARTII1_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":402:0:402:1|Pruning unused register CUARTOOI_5(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":368:0:368:1|Pruning unused register CUARTo01_4(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":353:0:353:1|Pruning unused register CUARTol0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":353:0:353:1|Pruning unused register CUARTll0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":338:0:338:1|Pruning unused register CUARTo1i_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":338:0:338:1|Pruning unused register CUARTL1I_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":246:0:246:1|Pruning unused register CUARTOII_4. Make sure that there are no unused intermediate registers.
+Post processing for coreuartapb_lib.uart_apb_1_uart_apb_1_0_coreuartapb.cuartlol
+Running optimization stage 1 on UART_apb_1_UART_apb_1_0_COREUARTapb .......
+@W: CL252 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 0 of signal CUARTILLL is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 1 of signal CUARTILLL is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 2 of signal CUARTILLL is floating -- simulation mismatch possible.
+Post processing for work.uart_apb_1.rtl
+Running optimization stage 1 on UART_apb_1 .......
+Running optimization stage 1 on PF_OUT_C2 .......
+Running optimization stage 1 on PF_IN_C1 .......
+Post processing for work.lvds_uart.rtl
+Running optimization stage 1 on LVDS_UART .......
+Post processing for work.lvds_uart_top.rtl
+Running optimization stage 1 on LVDS_UART_TOP .......
+Running optimization stage 1 on LSRAM .......
+Running optimization stage 1 on INIT_Monitor .......
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\GPIO_TOP\GPIO_TOP.vhd":17:7:17:14|Synthesizing work.gpio_top.rtl.
+Running optimization stage 1 on PF_IO_GPIO .......
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0.vhd":20:7:20:16|Synthesizing work.coregpio_0.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":29:7:29:38|Synthesizing coregpio_lib.coregpio_0_coregpio_0_0_coregpio.rtl.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@W: CD434 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":969:23:969:27|Signal paddr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":373:9:373:19|Signal io_num_comp is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coregpio_lib.coregpio_0_coregpio_0_0_coregpio.rtl
+Running optimization stage 1 on COREGPIO_0_COREGPIO_0_0_CoreGPIO .......
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_158(31). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_158(31). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_158(31). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_153(30). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_153(30). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_153(30). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_148(29). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_148(29). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_148(29). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_143(28). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_143(28). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_143(28). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_138(27). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_138(27). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_138(27). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_133(26). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_133(26). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_133(26). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_128(25). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_128(25). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_128(25). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_123(24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_123(24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_123(24). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_118(23). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_118(23). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_118(23). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_113(22). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_113(22). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_113(22). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_108(21). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_108(21). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_108(21). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_103(20). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_103(20). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_103(20). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_98(19). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_98(19). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_98(19). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_93(18). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_93(18). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_93(18). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_88(17). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_88(17). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_88(17). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_83(16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_83(16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_83(16). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_78(15). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_78(15). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_78(15). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_73(14). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_73(14). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_73(14). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_68(13). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_68(13). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_68(13). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_63(12). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_63(12). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_63(12). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_58(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_58(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_58(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_53(10). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_53(10). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_53(10). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_48(9). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_48(9). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_48(9). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_43(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_43(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_43(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_38(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_38(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_38(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_33(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_33(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_33(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_28(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_28(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_28(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_23(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_23(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_23(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_18(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_18(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_18(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":608:10:608:21|Pruning unused register edge_both_13(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":581:10:581:20|Pruning unused register edge_neg_13(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":554:10:554:20|Pruning unused register edge_pos_13(2). Make sure that there are no unused intermediate registers.
+
+Only the first 100 messages of id 'CL169' are reported. To see all messages use 'report_messages -log C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\synthesis\synlog\top_compiler.srr -id CL169' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL169} -count unlimited' in the Tcl shell.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(9) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(24) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(25) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(26) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(27) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":637:10:637:11|Optimizing register bit INTR_reg(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Post processing for work.coregpio_0.rtl
+Running optimization stage 1 on COREGPIO_0 .......
+Post processing for work.gpio_top.rtl
+Running optimization stage 1 on GPIO_TOP .......
+Running optimization stage 1 on DDR3_0 .......
+Running optimization stage 1 on COREJTAGDebug_0 .......
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0.vhd":19:7:19:16|Synthesizing work.corei2c_c0.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vhdl\core\corei2c.vhd":35:7:35:37|Synthesizing corei2c_lib.corei2c_c0_corei2c_c0_0_corei2c.rtl.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vhdl\core\corei2c.vhd":183:7:183:16|Signal seradr1apb is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":36:7:36:25|Synthesizing corei2c_lib.corei2c_corei2creal.rtl.
+@N: CD231 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":182:17:182:18|Using onehot encoding for type fsmmod_type. For example, enumeration fsmmod0 is mapped to "1000000".
+@N: CD231 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":174:18:174:19|Using onehot encoding for type fsmsync_type. For example, enumeration fsmsync0 is mapped to "10000000".
+@N: CD231 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":166:17:166:18|Using onehot encoding for type fsmdet_type. For example, enumeration fsmdet0 is mapped to "1000000".
+@N: CD231 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":152:17:152:18|Using onehot encoding for type fsmsta_type. For example, enumeration fsmsta08 is mapped to "100000000000000000000000000000".
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":264:7:264:13|Signal sersmb7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":265:7:265:13|Signal sersmb6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":267:7:267:13|Signal sersmb4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":269:7:269:13|Signal sersmb2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":270:7:270:13|Signal sersmb1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":271:7:271:13|Signal sersmb0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":288:7:288:17|Signal smbsus_ni_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":289:7:289:18|Signal smbsus_ni_d2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":290:7:290:19|Signal smbalert_ni_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":291:7:291:20|Signal smbalert_ni_d2 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corei2c_lib.corei2c_corei2creal.rtl
+Running optimization stage 1 on COREI2C_COREI2CREAL .......
+@W: CL190 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Optimizing register bit ens1_pre to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Post processing for corei2c_lib.corei2c_c0_corei2c_c0_0_corei2c.rtl
+Running optimization stage 1 on COREI2C_C0_COREI2C_C0_0_COREI2C .......
+Post processing for work.corei2c_c0.rtl
+Running optimization stage 1 on COREI2C_C0 .......
+Running optimization stage 1 on COREAHBTOAPB3_0 .......
+Running optimization stage 1 on COREAHBLITE_0 .......
+Running optimization stage 1 on CORAXITOAHBL_0 .......
+Running optimization stage 1 on CCC_0 .......
+Running optimization stage 1 on AXI4_Interconnect .......
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\APB3\APB3.vhd":20:7:20:10|Synthesizing work.apb3.rtl.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD638 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Running optimization stage 1 on CoreAPB3 .......
+Post processing for work.apb3.rtl
+Running optimization stage 1 on APB3 .......
+Post processing for work.top.rtl
+Running optimization stage 1 on top .......
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Running optimization stage 2 on CoreAPB3_32_0_1_1_1_1_1_1_1_1_1_1_1_1_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_6_19 .......
+@W: CL246 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 27 to 16 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+Running optimization stage 2 on APB3 .......
+Running optimization stage 2 on AXI4_Interconnect .......
+Running optimization stage 2 on CCC_0 .......
+Running optimization stage 2 on CORAXITOAHBL_0 .......
+Running optimization stage 2 on COREAHBLITE_0 .......
+Running optimization stage 2 on COREAHBTOAPB3_0 .......
+Running optimization stage 2 on COREI2C_COREI2CREAL_0_0_0_0_3_0_0_30_0_0_0_0_0 .......
+@N: CL201 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Trying to extract state machine for register fsmmod.
+Extracted state machine for register fsmmod
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Trying to extract state machine for register fsmdet.
+Extracted state machine for register fsmdet
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Trying to extract state machine for register fsmsync.
+Extracted state machine for register fsmsync
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":61:2:61:12|Input pulse_215us is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":64:2:64:12|Input seradr1apb0 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":89:2:89:12|Input SMBALERT_NI is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vhdl\core\corei2creal.vhd":91:2:91:10|Input SMBSUS_NI is unused.
+Running optimization stage 2 on COREI2C_C0_COREI2C_C0_0_COREI2C_0_0_0_0_3_0_0_30_0_0_0_0_0_1 .......
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vhdl\core\corei2c.vhd":57:2:57:5|Input BCLK is unused.
+Running optimization stage 2 on COREI2C_C0 .......
+Running optimization stage 2 on COREJTAGDebug_0 .......
+Running optimization stage 2 on DDR3_0 .......
+Running optimization stage 2 on COREGPIO_0_COREGPIO_0_0_CoreGPIO_work_top_rtl_0layer0 .......
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\COREGPIO_0\COREGPIO_0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+Running optimization stage 2 on COREGPIO_0 .......
+Running optimization stage 2 on PF_IO_GPIO .......
+Running optimization stage 2 on GPIO_TOP .......
+Running optimization stage 2 on INIT_Monitor .......
+Running optimization stage 2 on LSRAM .......
+Running optimization stage 2 on PF_IN_C1 .......
+Running optimization stage 2 on PF_OUT_C2 .......
+Running optimization stage 2 on UART_apb_1_UART_apb_1_0_Clock_gen_work_top_rtl_0layer0 .......
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":21:0:21:16|Input baud_val_fraction is unused.
+Running optimization stage 2 on UART_apb_1_UART_apb_1_0_TX_async_work_top_rtl_0layer0 .......
+@N: CL201 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Trying to extract state machine for register CUARTlol0.
+Extracted state machine for register CUARTlol0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTO1L is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTL11 is unused.
+@N: CL159 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":25:0:25:7|Input CUARTI11 is unused.
+Running optimization stage 2 on UART_apb_1_UART_apb_1_0_RX_ASYNC_work_top_rtl_0layer0 .......
+@N: CL201 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":243:0:243:1|Trying to extract state machine for register CUARTo01.
+Extracted state machine for register CUARTo01
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Running optimization stage 2 on UART_apb_1_UART_apb_1_0_COREUART_8_0_0_0_0 .......
+Running optimization stage 2 on UART_apb_1_UART_apb_1_0_COREUARTapb_work_top_rtl_0layer0 .......
+@W: CL246 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\component\work\UART_apb_1\UART_apb_1_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":29:0:29:4|Input port bits 1 to 0 of paddr(4 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on UART_apb_1 .......
+Running optimization stage 2 on uart_fifo_work_top_rtl_0layer0 .......
+@N: CL134 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\uart_fifo.vhd":85:2:85:3|Found RAM fifo_array, depth=16, width=8
+Running optimization stage 2 on LVDS_UART .......
+Running optimization stage 2 on LVDS_UART_TOP .......
+Running optimization stage 2 on MiV_AXI .......
+Running optimization stage 2 on PF_IO_C0 .......
+Running optimization stage 2 on PF_IO_I2C_SDA_0 .......
+Running optimization stage 2 on reset_syn_0 .......
+Running optimization stage 2 on reset_syn_1 .......
+Running optimization stage 2 on SPI_Controller .......
+Running optimization stage 2 on UART_apb .......
+Running optimization stage 2 on top .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\synthesis\synwork\layer0.rt.csv
+

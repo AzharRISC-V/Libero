@@ -1,0 +1,18 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Wed Sep 11 14:33:23 2019
+Project   :  /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project
+Component :  SPI_Controller
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/SPI_Controller/SPI_Controller.v
+

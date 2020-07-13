@@ -1,0 +1,14 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, C0_dfi_timing_gen_Z52_layer1,0h:00m:15s,0h:00m:00s,0h:00m:00s,0h:00m:15s,   576 MB,     3 MB,     0 MB,     0 MB,     3 MB
+work, C0_fastinit_Z47_layer1,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   576 MB,     6 MB,     1 MB,     0 MB,     5 MB
+work, C0_qm_Z46_layer1,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   576 MB,    52 MB,     1 MB,     1 MB,    50 MB
+work, C0_fastsdram_Z41_layer1,0h:00m:21s,0h:00m:03s,0h:00m:05s,0h:00m:12s,   744 MB,   293 MB,     0 MB,   196 MB,    97 MB
+work, C0_odt_gen_Z35_layer1,0h:00m:03s,0h:00m:00s,0h:00m:00s,0h:00m:03s,   744 MB,     6 MB,     1 MB,     0 MB,     5 MB
+work, C0_rmw_Z32_layer1,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   744 MB,    18 MB,     3 MB,     3 MB,    12 MB
+work, C0_mpfe_arbiter_1s_32s,0h:00m:05s,0h:00m:00s,0h:00m:01s,0h:00m:04s,   744 MB,   237 MB,     6 MB,   120 MB,   111 MB
+work, C0_axi_if_Z11_layer1,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:02s,   744 MB,     6 MB,     6 MB,     0 MB,     0 MB
+work, C0_ddr4_nwl_phy_init_Z6_layer1,0h:00m:04s,0h:00m:00s,0h:00m:00s,0h:00m:04s,   744 MB,    44 MB,     2 MB,     1 MB,    41 MB
+work, LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer1,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   744 MB,     5 MB,     2 MB,     3 MB,     0 MB
+work, MiV_AXI_MiV_AXI_0_MIV_RV32IMA_L1_AXI_ROCKET,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   744 MB,    11 MB,     1 MB,     3 MB,     7 MB
+work, MiV_AXI_MiV_AXI_0_MIV_RV32IMA_L1_AXI_DCACHE_DCACHE,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:02s,   744 MB,     6 MB,     0 MB,     4 MB,     2 MB
+work, MiV_AXI_MiV_AXI_0_MIV_RV32IMA_L1_AXI_TLDEBUG_MODULE_INNER_DM_INNER,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   744 MB,    33 MB,     6 MB,     9 MB,    18 MB

@@ -1,0 +1,15 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\designer\impl1\top.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\fp\fp_constraints.pdc;pdc"
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\io\io_constraints.pdc;pdc"
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\top_derived_constraints.sdc;sdc"
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\timing_user_constraints.sdc;sdc"
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\fp\user.pdc;pdc"
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\synthesis\top_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

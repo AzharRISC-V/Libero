@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Mon Mar 23 15:12:47 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project
+Component :  APB3
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/APB3/APB3.vhd
+

@@ -1,0 +1,88 @@
+@P:  Worst Slack : -31.922
+@P:  CCC_0_0/CCC_0_0/pll_inst_0/OUT0 - Estimated Frequency : 85.0 MHz
+@P:  CCC_0_0/CCC_0_0/pll_inst_0/OUT0 - Requested Frequency : 111.1 MHz
+@P:  CCC_0_0/CCC_0_0/pll_inst_0/OUT0 - Estimated Period : 11.759
+@P:  CCC_0_0/CCC_0_0/pll_inst_0/OUT0 - Requested Period : 9.000
+@P:  CCC_0_0/CCC_0_0/pll_inst_0/OUT0 - Slack : -2.759
+@P:  COREJTAGDEBUG_Z70_layer1|iUDRCK_inferred_clock - Estimated Frequency : 13.5 MHz
+@P:  COREJTAGDEBUG_Z70_layer1|iUDRCK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  COREJTAGDEBUG_Z70_layer1|iUDRCK_inferred_clock - Estimated Period : 73.844
+@P:  COREJTAGDEBUG_Z70_layer1|iUDRCK_inferred_clock - Requested Period : 10.000
+@P:  COREJTAGDEBUG_Z70_layer1|iUDRCK_inferred_clock - Slack : -31.922
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT0 - Estimated Frequency : NA
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT0 - Requested Frequency : 666.7 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT0 - Estimated Period : NA
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT0 - Requested Period : 1.500
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT0 - Slack : NA
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT1 - Estimated Frequency : 137.6 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT1 - Requested Frequency : 166.7 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT1 - Estimated Period : 7.269
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT1 - Requested Period : 6.000
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT1 - Slack : -1.269
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT2 - Estimated Frequency : 274.8 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT2 - Requested Frequency : 666.7 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT2 - Estimated Period : 3.639
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT2 - Requested Period : 1.500
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT2 - Slack : -2.139
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT3 - Estimated Frequency : NA
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT3 - Requested Frequency : 666.7 MHz
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT3 - Estimated Period : NA
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT3 - Requested Period : 1.500
+@P:  DDR3_0_0/CCC_0/pll_inst_0/OUT3 - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Frequency : 291.6 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Period : 3.429
+@P:  DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock - Slack : 6.571
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|RX_DQS_90_inferred_clock[0] - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock - Slack : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Estimated Frequency : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Estimated Period : NA
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Requested Period : 10.000
+@P:  DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_inferred_clock - Slack : NA
+@P:  REF_CLK_0 - Estimated Frequency : NA
+@P:  REF_CLK_0 - Requested Frequency : 50.0 MHz
+@P:  REF_CLK_0 - Estimated Period : NA
+@P:  REF_CLK_0 - Requested Period : 20.000
+@P:  REF_CLK_0 - Slack : NA
+@P:  TCK - Estimated Frequency : NA
+@P:  TCK - Requested Frequency : 30.0 MHz
+@P:  TCK - Estimated Period : NA
+@P:  TCK - Requested Period : 33.330
+@P:  TCK - Slack : NA
+@P:  System - Estimated Frequency : 26.6 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 37.633
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : -27.634
+@P: top Part : mpf300tfcg1152-1
+@P: top Register bits  : 24466 
+@P: top DSP Blocks  : 2
+@P: top I/O primitives : 111
+@P: top RAM1K20 :  60
+@P: top RAM64x12 :  107
+@P:  CPU Time : 0h:04m:18s

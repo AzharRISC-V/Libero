@@ -1,0 +1,4 @@
+@E: CD716 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\hamming_decoder.vhd":55:47:56:12|Expression has ambiguous type
+@E: CD716 :"C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project\hdl\hamming_encoder.vhd":52:47:52:81|Expression has ambiguous type
+@E::Errors while synthesizing top module work.top.
+

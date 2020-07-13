@@ -1,0 +1,43 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.top|-layerid|0|-orig_srs|C:\\Users\\Public\\Documents\\Libero\\Solution\\Libero_Project\\synthesis\\synwork\\top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\bin64\\c_vhdl.exe":1562075633
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\location.map":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1562075650
+#CUR:"C:\\new_Microsemi\\Libero_SoC_v12.3\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1562075650
+#CUR:"C:\\Users\\Public\\Documents\\Libero\\Solution\\Libero_Project\\component\\work\\top\\top.vhd":1583182785
+0 "C:\Users\Public\Documents\Libero\Solution\Libero_Project\component\work\top\top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work top rtl 0
+module work top 0
+
+# Unbound Instances to File Association
+inst work top uart_apb 0
+inst work top spi_controller 0
+inst work top reset_syn_1 0
+inst work top reset_syn_0 0
+inst work top miv_axi 0
+inst work top lsram 0
+inst work top init_monitor 0
+inst work top ddr3_0 0
+inst work top corejtagdebug_0 0
+inst work top coregpio_0 0
+inst work top coreahbtoapb3_0 0
+inst work top coreahblite_0 0
+inst work top coraxitoahbl_0 0
+inst work top ccc_0 0
+inst work top axi4_interconnect 0
+inst work top apb3 0

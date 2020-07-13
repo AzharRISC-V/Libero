@@ -1,0 +1,27 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)
+
+Date      :  Mon Mar 23 13:14:20 2020
+Project   :  C:\Users\Public\Documents\Libero\Solution - Copy\Libero_Project
+Component :  COREUART_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_54sxa.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vhdl.do
+
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREUART/5.6.102/rtl/vhdl/test/common/misc.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREUART/5.6.102/rtl/vhdl/test/common/tbpack.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/Actel/DirectCore/COREUART/5.6.102/rtl/vhdl/test/common/textio.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd
+    C:/Users/Public/Documents/Libero/Solution - Copy/Libero_Project/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd
+

@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Wed Sep 11 14:32:22 2019
+Project   :  /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project
+Component :  COREJTAGDebug_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_bufd.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_uj_jtag.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_ujtag_wrapper.v
+    /home/APPS_Regression/Designs_Standard/TU0775_Miv/Libero_Project/component/work/COREJTAGDebug_0/COREJTAGDebug_0.v
+

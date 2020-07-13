@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.3 (Version 12.800.0.16)</text>
+<text>Date: Mon Mar 16 15:08:12 2020
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</cell>
+ <cell>(1166, 163)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_gbs_1</cell>
+ <cell>12552</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>DDR3_0_0/CCC_0/clkint_4/U0</cell>
+ <cell>(1169, 162)</cell>
+ <cell>DDR3_0_0/CCC_0/clkint_4/U0_Y</cell>
+ <cell>9852</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</cell>
+ <cell>(1164, 162)</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0_Y</cell>
+ <cell>2937</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</cell>
+ <cell>(1165, 162)</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0_Y</cell>
+ <cell>1246</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0</cell>
+ <cell>(1154, 162)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_Y</cell>
+ <cell>827</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</cell>
+ <cell>(1157, 162)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y</cell>
+ <cell>311</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</cell>
+ <cell>(1152, 162)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0_Y</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</cell>
+ <cell>(1166, 162)</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0_Y</cell>
+ <cell>3</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset:Q</cell>
+ <cell>(1538, 205)</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM:Y</cell>
+ <cell>(1468, 204)</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_i_0_rep</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK:Y</cell>
+ <cell>(618, 30)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/un1_DUT_TCK</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK</cell>
+ <cell>(504, 2)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/DFN1_CMD:Q</cell>
+ <cell>(2109, 376)</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/DFN1_CMD_Q</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</cell>
+ <cell>(2460, 5)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>DDR3_0_0/CCC_0/pll_inst_0:OUT1</cell>
+ <cell>(2460, 377)</cell>
+ <cell>DDR3_0_0/CCC_0/clkint_4/U0</cell>
+ <cell>DDR3_0_0/CCC_0/pll_inst_0_clkint_4</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</cell>
+ <cell>(2460, 5)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> CCC Location </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>REF_CLK_0</cell>
+ <cell>E25</cell>
+ <cell>HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0</cell>
+ <cell>REF_CLK_0_ibuf/U_IOPAD:Y</cell>
+ <cell>(2256, 1)</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0:REF_CLK_0</cell>
+ <cell>(2460, 5)</cell>
+ <cell>REF_CLK_0_c</cell>
+ <cell>HARDWIRED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>-</cell>
+ <cell>-</cell>
+ <cell>-</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0:OUT0</cell>
+ <cell>(2460, 5)</cell>
+ <cell>DDR3_0_0/CCC_0/pll_inst_0:REF_CLK_0</cell>
+ <cell>(2460, 377)</cell>
+ <cell>CCC_0_0/CCC_0_0/pll_inst_0_clkint_0</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Local Clock Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Global Clock Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+ <cell> </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_GB0</cell>
+ <cell>(1166, 163)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_gbs_1</cell>
+ <cell>12552</cell>
+ <cell>1</cell>
+ <cell>(1742, 149)</cell>
+ <cell>591</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1742, 179)</cell>
+ <cell>833</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1742, 206)</cell>
+ <cell>1415</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1742, 233)</cell>
+ <cell>2696</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(1742, 260)</cell>
+ <cell>2399</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(1742, 287)</cell>
+ <cell>1212</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(1742, 314)</cell>
+ <cell>7</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(1748, 233)</cell>
+ <cell>1580</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>9</cell>
+ <cell>(1748, 260)</cell>
+ <cell>1802</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>10</cell>
+ <cell>(1748, 287)</cell>
+ <cell>14</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>11</cell>
+ <cell>(1748, 314)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>12</cell>
+ <cell>(1748, 368)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>DDR3_0_0/CCC_0/clkint_4/U0</cell>
+ <cell>(1169, 162)</cell>
+ <cell>DDR3_0_0/CCC_0/clkint_4/U0_Y</cell>
+ <cell>9852</cell>
+ <cell>1</cell>
+ <cell>(1743, 205)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1743, 232)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1743, 259)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1743, 286)</cell>
+ <cell>792</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(1743, 313)</cell>
+ <cell>1039</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(1743, 340)</cell>
+ <cell>816</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(1743, 367)</cell>
+ <cell>321</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(1749, 286)</cell>
+ <cell>614</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>9</cell>
+ <cell>(1749, 313)</cell>
+ <cell>2276</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>10</cell>
+ <cell>(1749, 340)</cell>
+ <cell>1981</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>11</cell>
+ <cell>(1749, 367)</cell>
+ <cell>2009</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0</cell>
+ <cell>(1164, 162)</cell>
+ <cell>AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0_Y</cell>
+ <cell>2937</cell>
+ <cell>1</cell>
+ <cell>(1740, 231)</cell>
+ <cell>541</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1740, 258)</cell>
+ <cell>1469</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1740, 285)</cell>
+ <cell>837</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1746, 258)</cell>
+ <cell>90</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0</cell>
+ <cell>(1165, 162)</cell>
+ <cell>reset_syn_0_0/reset_syn_0_0/dff_1_rep_RNIM_0/U0_Y</cell>
+ <cell>1246</cell>
+ <cell>1</cell>
+ <cell>(1743, 177)</cell>
+ <cell>32</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1743, 204)</cell>
+ <cell>494</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1743, 231)</cell>
+ <cell>323</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1743, 258)</cell>
+ <cell>275</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(1743, 285)</cell>
+ <cell>122</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0</cell>
+ <cell>(1154, 162)</cell>
+ <cell>CCC_0_0/CCC_0_0/clkint_0/U0_Y</cell>
+ <cell>827</cell>
+ <cell>1</cell>
+ <cell>(583, 149)</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(583, 179)</cell>
+ <cell>7</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(583, 206)</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(583, 233)</cell>
+ <cell>513</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(583, 260)</cell>
+ <cell>293</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0</cell>
+ <cell>(1157, 162)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y</cell>
+ <cell>311</cell>
+ <cell>1</cell>
+ <cell>(585, 232)</cell>
+ <cell>299</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(585, 259)</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0</cell>
+ <cell>(1152, 162)</cell>
+ <cell>COREJTAGDebug_0_0/COREJTAGDebug_0_0/iUDRCK_inferred_clock_RNIVRO8/U0_Y</cell>
+ <cell>18</cell>
+ <cell> </cell>
+ <cell>(582, 39)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0</cell>
+ <cell>(1166, 162)</cell>
+ <cell>DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(1747, 368)</cell>
+ <cell>3</cell>
+</row>
+</table>
+<text></text>
+</section>
+</doc>

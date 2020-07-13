@@ -1,0 +1,255 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v12.3 12.800.0.16
+
+# Family: PolarFire , Die: MPF300TS , Package: FCG1152
+
+# Date generated: Sat Mar 28 15:29:23 2020 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name GPIO_10  \
+    -pin_name J6           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_11  \
+    -pin_name J5           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_12  \
+    -pin_name L8           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_13  \
+    -pin_name L7           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_14  \
+    -pin_name J8           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_15  \
+    -pin_name K8           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_16  \
+    -pin_name M2           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_17  \
+    -pin_name M1           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_18  \
+    -pin_name N8           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_19  \
+    -pin_name M7           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_20  \
+    -pin_name V7           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_21  \
+    -pin_name V8           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_22  \
+    -pin_name U7           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_23  \
+    -pin_name T7           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_24  \
+    -pin_name AB6          \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_25  \
+    -pin_name AB7          \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_26  \
+    -pin_name AA8          \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_27  \
+    -pin_name AB9          \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_28  \
+    -pin_name Y5           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_29  \
+    -pin_name W5           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_30  \
+    -pin_name M6           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_31  \
+    -pin_name M5           \
+    -fixed true            \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_4  \
+    -pin_name AB5         \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_5  \
+    -pin_name AC4         \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_6  \
+    -pin_name W8          \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_7  \
+    -pin_name Y8          \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_8  \
+    -pin_name W6          \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name GPIO_9  \
+    -pin_name Y6          \
+    -fixed true           \
+    -DIRECTION INOUT
+
+
+set_io -port_name SCL_INOUT  \
+    -pin_name E6             \
+    -fixed true              \
+    -DIRECTION INOUT
+
+
+set_io -port_name SDA_INOUT  \
+    -pin_name D6             \
+    -fixed true              \
+    -DIRECTION INOUT
+
+
+set_io -port_name SPISS_1  \
+    -pin_name F15          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_2  \
+    -pin_name L17          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_3  \
+    -pin_name M17          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_4  \
+    -pin_name H14          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_5  \
+    -pin_name G14          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.19)
+
+Date      :  Thu Sep 19 18:13:55 2019
+Project   :  C:\Users\dkawatha\Documents\Libero_Project
+Component :  INIT_Monitor
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/dkawatha/Documents/Libero_Project/component/work/INIT_Monitor/INIT_Monitor.v
+    C:/Users/dkawatha/Documents/Libero_Project/component/work/INIT_Monitor/INIT_Monitor_0/INIT_Monitor_INIT_Monitor_0_PF_INIT_MONITOR.v
+

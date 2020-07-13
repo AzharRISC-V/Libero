@@ -1,0 +1,820 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version 
+Microsemi Corporation - Microsemi Libero Software Release  (Version 12.700.0.21)
+Date: Mon Sep 23 19:33:32 2019
+
+
+Design: top
+Family: PolarFire
+Die: MPF300TS
+Package: FCG1152
+Temperature Range: -40 - 100 C
+Voltage Range: 1.0185 - 1.0815 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Operating Conditions: slow_lv_ht
+Scenario for Timing Analysis: timing_analysis
+
+
+Path 1
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.289
+  Slack (ns):              2.669
+  Arrival (ns):            9.448
+  Required (ns):          12.117
+
+Path 2
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.221
+  Slack (ns):              2.729
+  Arrival (ns):            9.388
+  Required (ns):          12.117
+
+Path 3
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.222
+  Slack (ns):              2.732
+  Arrival (ns):            9.381
+  Required (ns):          12.113
+
+Path 4
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.210
+  Slack (ns):              2.740
+  Arrival (ns):            9.377
+  Required (ns):          12.117
+
+Path 5
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.210
+  Slack (ns):              2.742
+  Arrival (ns):            9.369
+  Required (ns):          12.111
+
+Path 6
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.211
+  Slack (ns):              2.747
+  Arrival (ns):            9.370
+  Required (ns):          12.117
+
+Path 7
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.215
+  Slack (ns):              2.750
+  Arrival (ns):            9.367
+  Required (ns):          12.117
+
+Path 8
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.199
+  Slack (ns):              2.751
+  Arrival (ns):            9.366
+  Required (ns):          12.117
+
+Path 9
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.199
+  Slack (ns):              2.753
+  Arrival (ns):            9.358
+  Required (ns):          12.111
+
+Path 10
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[7]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.187
+  Slack (ns):              2.762
+  Arrival (ns):            9.355
+  Required (ns):          12.117
+
+Path 11
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[62]:D
+  Delay (ns):              6.195
+  Slack (ns):              2.764
+  Arrival (ns):            9.354
+  Required (ns):          12.118
+
+Path 12
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[58]:D
+  Delay (ns):              6.194
+  Slack (ns):              2.765
+  Arrival (ns):            9.353
+  Required (ns):          12.118
+
+Path 13
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[64]:D
+  Delay (ns):              6.189
+  Slack (ns):              2.765
+  Arrival (ns):            9.348
+  Required (ns):          12.113
+
+Path 14
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[5]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.168
+  Slack (ns):              2.766
+  Arrival (ns):            9.309
+  Required (ns):          12.075
+
+Path 15
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[9]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.181
+  Slack (ns):              2.769
+  Arrival (ns):            9.348
+  Required (ns):          12.117
+
+Path 16
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.076
+  Slack (ns):              2.773
+  Arrival (ns):            9.562
+  Required (ns):          12.335
+
+Path 17
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/qm_active_index[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/rowaddr_act[11]:EN
+  Delay (ns):              3.011
+  Slack (ns):              2.777
+  Arrival (ns):            9.476
+  Required (ns):          12.253
+
+Path 18
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/qm_active_index[1]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/rowaddr_act[1]:EN
+  Delay (ns):              3.011
+  Slack (ns):              2.777
+  Arrival (ns):            9.476
+  Required (ns):          12.253
+
+Path 19
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[59]:D
+  Delay (ns):              6.174
+  Slack (ns):              2.785
+  Arrival (ns):            9.333
+  Required (ns):          12.118
+
+Path 20
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.058
+  Slack (ns):              2.790
+  Arrival (ns):            9.546
+  Required (ns):          12.336
+
+Path 21
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/user_mr_w_req:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.056
+  Slack (ns):              2.791
+  Arrival (ns):            9.545
+  Required (ns):          12.336
+
+Path 22
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.154
+  Slack (ns):              2.792
+  Arrival (ns):            9.321
+  Required (ns):          12.113
+
+Path 23
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.138
+  Slack (ns):              2.796
+  Arrival (ns):            9.279
+  Required (ns):          12.075
+
+Path 24
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.079
+  Slack (ns):              2.798
+  Arrival (ns):            9.570
+  Required (ns):          12.368
+
+Path 25
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.079
+  Slack (ns):              2.798
+  Arrival (ns):            9.570
+  Required (ns):          12.368
+
+Path 26
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.079
+  Slack (ns):              2.799
+  Arrival (ns):            9.570
+  Required (ns):          12.369
+
+Path 27
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.078
+  Slack (ns):              2.799
+  Arrival (ns):            9.569
+  Required (ns):          12.368
+
+Path 28
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.142
+  Slack (ns):              2.802
+  Arrival (ns):            9.309
+  Required (ns):          12.111
+
+Path 29
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.143
+  Slack (ns):              2.803
+  Arrival (ns):            9.310
+  Required (ns):          12.113
+
+Path 30
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.042
+  Slack (ns):              2.805
+  Arrival (ns):            9.531
+  Required (ns):          12.336
+
+Path 31
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[30]:D
+  Delay (ns):              3.126
+  Slack (ns):              2.806
+  Arrival (ns):            9.568
+  Required (ns):          12.374
+
+Path 32
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[56]:D
+  Delay (ns):              6.153
+  Slack (ns):              2.806
+  Arrival (ns):            9.312
+  Required (ns):          12.118
+
+Path 33
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.143
+  Slack (ns):              2.807
+  Arrival (ns):            9.310
+  Required (ns):          12.117
+
+Path 34
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.131
+  Slack (ns):              2.813
+  Arrival (ns):            9.298
+  Required (ns):          12.111
+
+Path 35
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.148
+  Slack (ns):              2.813
+  Arrival (ns):            9.300
+  Required (ns):          12.113
+
+Path 36
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.131
+  Slack (ns):              2.813
+  Arrival (ns):            9.298
+  Required (ns):          12.111
+
+Path 37
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.132
+  Slack (ns):              2.814
+  Arrival (ns):            9.299
+  Required (ns):          12.113
+
+Path 38
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[4]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.117
+  Slack (ns):              2.817
+  Arrival (ns):            9.258
+  Required (ns):          12.075
+
+Path 39
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.132
+  Slack (ns):              2.818
+  Arrival (ns):            9.299
+  Required (ns):          12.117
+
+Path 40
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[45]:D
+  Delay (ns):              3.086
+  Slack (ns):              2.819
+  Arrival (ns):            9.528
+  Required (ns):          12.347
+
+Path 41
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[11]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.111
+  Slack (ns):              2.819
+  Arrival (ns):            9.256
+  Required (ns):          12.075
+
+Path 42
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[53]:D
+  Delay (ns):              6.139
+  Slack (ns):              2.820
+  Arrival (ns):            9.298
+  Required (ns):          12.118
+
+Path 43
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[51]:D
+  Delay (ns):              3.083
+  Slack (ns):              2.822
+  Arrival (ns):            9.525
+  Required (ns):          12.347
+
+Path 44
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[6]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.143
+  Slack (ns):              2.822
+  Arrival (ns):            9.295
+  Required (ns):          12.117
+
+Path 45
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.022
+  Slack (ns):              2.823
+  Arrival (ns):            9.513
+  Required (ns):          12.336
+
+Path 46
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_104/MSC_i_105/MSC_i_106/wr_ready:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_104/MSC_i_105/gen_dc_level.ram_rd_valid_int:D
+  Delay (ns):              3.092
+  Slack (ns):              2.823
+  Arrival (ns):            9.541
+  Required (ns):          12.364
+
+Path 47
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[26]:D
+  Delay (ns):              3.082
+  Slack (ns):              2.823
+  Arrival (ns):            9.524
+  Required (ns):          12.347
+
+Path 48
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.136
+  Slack (ns):              2.823
+  Arrival (ns):            9.288
+  Required (ns):          12.111
+
+Path 49
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[6]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.111
+  Slack (ns):              2.823
+  Arrival (ns):            9.252
+  Required (ns):          12.075
+
+Path 50
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[2]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[2]:D
+  Delay (ns):              3.053
+  Slack (ns):              2.824
+  Arrival (ns):            9.544
+  Required (ns):          12.368
+
+Path 51
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[23]:D
+  Delay (ns):              3.082
+  Slack (ns):              2.824
+  Arrival (ns):            9.524
+  Required (ns):          12.348
+
+Path 52
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[42]:D
+  Delay (ns):              3.081
+  Slack (ns):              2.824
+  Arrival (ns):            9.523
+  Required (ns):          12.347
+
+Path 53
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[62]:D
+  Delay (ns):              6.127
+  Slack (ns):              2.824
+  Arrival (ns):            9.294
+  Required (ns):          12.118
+
+Path 54
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.120
+  Slack (ns):              2.824
+  Arrival (ns):            9.287
+  Required (ns):          12.111
+
+Path 55
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[3]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.110
+  Slack (ns):              2.824
+  Arrival (ns):            9.251
+  Required (ns):          12.075
+
+Path 56
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.120
+  Slack (ns):              2.824
+  Arrival (ns):            9.287
+  Required (ns):          12.111
+
+Path 57
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[36]:D
+  Delay (ns):              3.084
+  Slack (ns):              2.825
+  Arrival (ns):            9.526
+  Required (ns):          12.351
+
+Path 58
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[58]:D
+  Delay (ns):              6.126
+  Slack (ns):              2.825
+  Arrival (ns):            9.293
+  Required (ns):          12.118
+
+Path 59
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[64]:D
+  Delay (ns):              6.121
+  Slack (ns):              2.825
+  Arrival (ns):            9.288
+  Required (ns):          12.113
+
+Path 60
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[7]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.120
+  Slack (ns):              2.825
+  Arrival (ns):            9.288
+  Required (ns):          12.113
+
+Path 61
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[14]:D
+  Delay (ns):              3.083
+  Slack (ns):              2.826
+  Arrival (ns):            9.525
+  Required (ns):          12.351
+
+Path 62
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.137
+  Slack (ns):              2.828
+  Arrival (ns):            9.289
+  Required (ns):          12.117
+
+Path 63
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.121
+  Slack (ns):              2.829
+  Arrival (ns):            9.288
+  Required (ns):          12.117
+
+Path 64
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[5]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.101
+  Slack (ns):              2.829
+  Arrival (ns):            9.242
+  Required (ns):          12.071
+
+Path 65
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[28]:D
+  Delay (ns):              3.077
+  Slack (ns):              2.830
+  Arrival (ns):            9.519
+  Required (ns):          12.349
+
+Path 66
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[3]:D
+  Delay (ns):              3.076
+  Slack (ns):              2.831
+  Arrival (ns):            9.518
+  Required (ns):          12.349
+
+Path 67
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[13]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.112
+  Slack (ns):              2.831
+  Arrival (ns):            9.244
+  Required (ns):          12.075
+
+Path 68
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder_0[16]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.104
+  Slack (ns):              2.831
+  Arrival (ns):            9.244
+  Required (ns):          12.075
+
+Path 69
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[54]:D
+  Delay (ns):              3.075
+  Slack (ns):              2.832
+  Arrival (ns):            9.517
+  Required (ns):          12.349
+
+Path 70
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[9]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[63]:D
+  Delay (ns):              6.114
+  Slack (ns):              2.832
+  Arrival (ns):            9.281
+  Required (ns):          12.113
+
+Path 71
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.125
+  Slack (ns):              2.834
+  Arrival (ns):            9.277
+  Required (ns):          12.111
+
+Path 72
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/MSC_i_72/MSC_i_73/MSC_i_74/rd_addr[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_8/rd_data_asm_fifo_wr_data[7]:D
+  Delay (ns):              3.072
+  Slack (ns):              2.835
+  Arrival (ns):            9.514
+  Required (ns):          12.349
+
+Path 73
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.109
+  Slack (ns):              2.835
+  Arrival (ns):            9.276
+  Required (ns):          12.111
+
+Path 74
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[62]:D
+  Delay (ns):              6.116
+  Slack (ns):              2.835
+  Arrival (ns):            9.283
+  Required (ns):          12.118
+
+Path 75
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[7]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.108
+  Slack (ns):              2.835
+  Arrival (ns):            9.276
+  Required (ns):          12.111
+
+Path 76
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.046
+  Slack (ns):              2.836
+  Arrival (ns):            9.532
+  Required (ns):          12.368
+
+Path 77
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.046
+  Slack (ns):              2.836
+  Arrival (ns):            9.532
+  Required (ns):          12.368
+
+Path 78
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[58]:D
+  Delay (ns):              6.115
+  Slack (ns):              2.836
+  Arrival (ns):            9.282
+  Required (ns):          12.118
+
+Path 79
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[2]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[64]:D
+  Delay (ns):              6.110
+  Slack (ns):              2.836
+  Arrival (ns):            9.277
+  Required (ns):          12.113
+
+Path 80
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.045
+  Slack (ns):              2.837
+  Arrival (ns):            9.531
+  Required (ns):          12.368
+
+Path 81
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/init_sm[0]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[0]:D
+  Delay (ns):              3.045
+  Slack (ns):              2.838
+  Arrival (ns):            9.531
+  Required (ns):          12.369
+
+Path 82
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[5]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.089
+  Slack (ns):              2.839
+  Arrival (ns):            9.230
+  Required (ns):          12.069
+
+Path 83
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[7]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.109
+  Slack (ns):              2.840
+  Arrival (ns):            9.277
+  Required (ns):          12.117
+
+Path 84
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[9]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[55]:D
+  Delay (ns):              6.102
+  Slack (ns):              2.842
+  Arrival (ns):            9.269
+  Required (ns):          12.111
+
+Path 85
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[3]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/dorw[2]:SLn
+  Delay (ns):              3.002
+  Slack (ns):              2.844
+  Arrival (ns):            9.491
+  Required (ns):          12.335
+
+Path 86
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[5]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.090
+  Slack (ns):              2.844
+  Arrival (ns):            9.231
+  Required (ns):          12.075
+
+Path 87
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[0]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[59]:D
+  Delay (ns):              6.106
+  Slack (ns):              2.845
+  Arrival (ns):            9.273
+  Required (ns):          12.118
+
+Path 88
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[62]:D
+  Delay (ns):              6.121
+  Slack (ns):              2.845
+  Arrival (ns):            9.273
+  Required (ns):          12.118
+
+Path 89
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[58]:D
+  Delay (ns):              6.120
+  Slack (ns):              2.846
+  Arrival (ns):            9.272
+  Required (ns):          12.118
+
+Path 90
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[10]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[64]:D
+  Delay (ns):              6.115
+  Slack (ns):              2.846
+  Arrival (ns):            9.267
+  Required (ns):          12.113
+
+Path 91
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[62]:D
+  Delay (ns):              6.105
+  Slack (ns):              2.846
+  Arrival (ns):            9.272
+  Required (ns):          12.118
+
+Path 92
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[7]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.097
+  Slack (ns):              2.846
+  Arrival (ns):            9.265
+  Required (ns):          12.111
+
+Path 93
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[58]:D
+  Delay (ns):              6.104
+  Slack (ns):              2.847
+  Arrival (ns):            9.271
+  Required (ns):          12.118
+
+Path 94
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/divisor[1]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[64]:D
+  Delay (ns):              6.099
+  Slack (ns):              2.847
+  Arrival (ns):            9.266
+  Required (ns):          12.113
+
+Path 95
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[9]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[60]:D
+  Delay (ns):              6.103
+  Slack (ns):              2.847
+  Arrival (ns):            9.270
+  Required (ns):          12.117
+
+Path 96
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_cs[0]:D
+  Delay (ns):              3.030
+  Slack (ns):              2.850
+  Arrival (ns):            9.518
+  Required (ns):          12.368
+
+Path 97
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[3]:D
+  Delay (ns):              3.030
+  Slack (ns):              2.850
+  Arrival (ns):            9.518
+  Required (ns):          12.368
+
+Path 98
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[14]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[57]:D
+  Delay (ns):              6.099
+  Slack (ns):              2.850
+  Arrival (ns):            9.267
+  Required (ns):          12.117
+
+Path 99
+  From: MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[5]:CLK
+  To:   MiV_AXI_0/MiV_AXI_0/ChiselTop0/tile/core/div/remainder[61]:D
+  Delay (ns):              6.078
+  Slack (ns):              2.850
+  Arrival (ns):            9.219
+  Required (ns):          12.069
+
+Path 100
+  From: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_225/MSC_i_226/cal_init_mr_addr_1[5]:CLK
+  To:   DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_4/MSC_i_190/MSC_i_191/precharge_ob[1]:D
+  Delay (ns):              3.029
+  Slack (ns):              2.851
+  Arrival (ns):            9.517
+  Required (ns):          12.368
+

@@ -1,0 +1,8 @@
+16:21:05 **** Incremental Build of configuration Release for project MiV_uart_blinky ****
+make all 
+Invoking: GNU RISC-V Cross Print Size
+riscv64-unknown-elf-size --format=berkeley "MiV_uart_blinky.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3136	    160	   4128	   7424	   1d00	MiV_uart_blinky.elf
+Finished building: MiV_uart_blinky.siz
+ 
